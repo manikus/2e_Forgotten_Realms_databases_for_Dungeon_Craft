@@ -1,0 +1,36 @@
+Dragons (all age 6)
+			Body		Tail		Cell	body		tail				Body		Tail		Cell	body		tail
+	Black		42-51	35-41		7-8		6-7		Brass	41-52	34-44		7-9		6-7
+	Blue		69-88	43-52		11-14	7-8		Bronze	52-63	44-52		9-10		7-8
+	Green	53-62	48-56		9-10		8-9		Copper	50-59	40-50		8-10		7-8
+	Red		80-99	68-87		13-16	11-14	Gold		67-80	60-70		11-13	10-12
+	White	41-50	36-45		7-8		6-7		Silver	63-74	27-32		10-12	4-5
+-----
+	Amethyst	53-68	46-56		9-11		8-9
+	Ctystal	28-38	30-40		5-6		5-7
+	Emerald	45-54	35-42		7-9		6-7
+	Sapphire	50-60	25-30		8-10		4-5
+	Topaz	44-53	23-29		7-8		4-5
+	Deep		41-50	36-45		7-8		6-8
+	
+Giants
+	Cloud	24					4
+	Cyckops	20					4
+	Cyclopskin	7.5					2
+	Desert	17					3
+	Ettin		13					3
+	Firbolg	10.5					2
+	Fire		18					3
+	Fog		24					4
+	Fomorian	13.5					3
+	Frost		21					4
+	Hill		16					3
+	Jungle	18					3
+	Mountain	14					3
+	Reef		16					3
+	Stone	18					3
+	Storm	26					5
+	Verbeeg	8.5 - 10				2
+	Wood	9.5					2
+	
+	

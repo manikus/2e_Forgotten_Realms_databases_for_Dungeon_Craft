@@ -1,0 +1,79 @@
+Abjuration
+Cast by = bard
+Cast by = mage
+Cast by = mageAbjurer
+Cast by = mageConjurer
+Cast by = mageDiviner
+Cast by = mageEnchanter
+Cast by = mageInvoker
+Cast by = mageNecromancer
+
+Alteration
+Cast by = bard
+Cast by = mage
+Cast by = mageConjurer
+Cast by = mageDiviner
+Cast by = mageEnchanter
+Cast by = mageIllusionist
+Cast by = mageInvoker
+Cast by = mageNecromancer
+Cast by = mageTransmuter
+
+Conjuration/Summoning
+Cast by = bard
+Cast by = mage
+Cast by = mageAbjurer
+Cast by = mageConjurer
+Cast by = mageEnchanter
+Cast by = mageIllusionist
+Cast by = mageNecromancer
+Cast by = mageTransmuter
+
+EnchantmentKharm
+Cast by = bard
+Cast by = mage
+Cast by = mageAbjurer
+Cast by = mageConjurer
+Cast by = mageDiviner
+Cast by = mageEnchanter
+Cast by = mageIllusionist
+Cast by = mageTransmuter
+
+IllusiodPhnntasm
+Cast by = bard
+Cast by = mage
+Cast by = mageConjurer
+Cast by = mageDiviner
+Cast by = mageEnchanter
+Cast by = mageIllusionist
+Cast by = mageInvoker
+Cast by = mageTransmuter
+
+InvocatiodEvocation
+Cast by = bard
+Cast by = mage
+Cast by = mageAbjurer
+Cast by = mageDiviner
+Cast by = mageInvoker
+Cast by = mageNecromancer
+Cast by = mageTransmuter
+
+LesserlGrenter Divination
+Cast by = bard
+Cast by = mage
+Cast by = mageAbjurer
+Cast by = mageDiviner
+Cast by = mageEnchanter
+Cast by = mageIllusionist
+Cast by = mageInvoker
+Cast by = mageNecromancer
+Cast by = mageTransmuter
+
+Necromancy
+Cast by = bard
+Cast by = mage
+Cast by = mageAbjurer
+Cast by = mageConjurer
+Cast by = mageDiviner
+Cast by = mageInvoker
+Cast by = mageNecromancer

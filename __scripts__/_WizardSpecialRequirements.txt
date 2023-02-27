@@ -1,0 +1,102 @@
+Wizard Specialist Requirements
+Specialist	School	Race	Min Ability Score	Opposition School(s)
+Abjurer	Abjuration	H	15 WIS	Alteration & Illusion
+Conjurer	Conj/Summ	H, 1/2E	15 CON	Gr. Divination & Invocation
+Diviner	Gr. Divination	H, 1/2E, E	16 WIS	Conj/Summ
+Enchanter	Ench/Charm	H, 1/2E, E	16 CHA	Invoc/Evoc & Necromancy
+Illusionist	Illusion	H, G	16 DEX	Necromancy & Invoc/Evoc & Abjuration
+Invoker	Invoc/Evoc	H	16 CON	Ench/Charm & Conjj/Summ
+Necromancer	Necromancy	H	16 WIS	Illusion & Ench/Charm
+Transmuter	Alteration	H, 1/2E	15 DEX	Abjuration & Necromancy
+
+Abjur:
+---Fire Trap (4th)
+---Anti-Magic Shell (6th)
++++Banishment (7th)
++++Spell Turning (7th)
++++Serten's Spell Immunity (8th)
+Imprisonment (9th)
+---Prismatic Sphere (9th)
+
+Alteration:
++++Color Spray (1st)
++++Gaze Reflection (1st)
+Light (1st
+Continual Light (2nd)
+Darkness, 15-foot Radius (2nd)
+Wizard Lock (2nd)
+Infravision (3rd)
+---Melf's Minute Meteors (3rd)
+Water Breathing (3rd))
++++Massmorph (4th)
+Rainbow Pattern (4th)
+Stoneskin (4th)
+Animal Growth (5th) reversible
+---Teleport Without Error (7th)
+Temporal Stasis (9th)
+---Time Stop (9th)
+
+Conjuration/Summoning:
+Armor (1st)
+---Find Familiar (1st)
+Melf's Acid Arrow (2nd)
+---Summon Swarm (2nd)
+Flame Arrow (3rd)
++++Conjure Animals (6th)
+---Drawmij's Instant Summons (7th)
+Prismatic Spray (7th)
+---Prismatic Wall (8th)
+---Gate (9th)
+---Prismatic Sphere (9th)
+
+Divination:
+Identify (1st)
+
+Enchantment/Charm:
+---Forget (2nd)
+Tasha's Uncontrollable Hideous Laughter (2nd)
+---Fire Charm (4th)
++++Chaos (5th)
+---Succor (9th)
+
+Illusion: (complete)
+Blur (2nd)
+Improved Invisibility (4th)
+Shadow Monsters (4th)
+Demi-Shadow Monsters (5th)
+Shadow Door (5th)
+Shadow Magic (5th)
+Demi-Shadow Magic (6th)
+Shades (6th)
+
+Invocation/Evocation
+---Wall of Fire (4th)
+---Wall of Ice (4th)
+---Wall of Force (5th)
+---Wall of Iron (5th)
+---Wall of Stone (5th)
+---Bigby's Forceful Hand (6th)
+---Chain Lightning (6th)
+---Death Fog (6th)
+---Otiluke's Freezing Sphere (6th)
++++Bigby's Grasping Hand (7th)
++++Mordenkainen's Sword (7th)
++++Bigby's Clenched Fist (8th)
+Binding (8th)
+Incendiary Cloud (8th)
+Otiluke's Telekinetic Sphere (8th)
+Astral Spell (9th)
+Bigby's Crushing Hand (9th)
+
+Necromancy: (complete)
+Chill Touch (1st)
+Detect Undead (1st)
+Hold Undead (3rd)
+Vampiric Touch (3rd)
+Contagion (4th)
+Enervation (4th) -> need to work out system to return to regular levels after time elapses
+Animate Dead (5th)
+Summon Shadow (5th)
+Control Undead (7th)
+Finger of Death (7th)
+Energy Drain (9th)

@@ -1,0 +1,80 @@
+***** Protection Spells *****
+level 2
+Protection from Birds (FR16)
+Protection from Cantrips
+Protection from Charm (OA)
+Protection from Deathbane (CotD)
+Protection from Normal Weapons (FR6)
+Protection from Paralysis (ToM)
+Protection from Plants, 10' Radius (FR6)
+Protection from Poison (FR6,S)
+Protection from Prime (PH)
+Protection from Specific Lycanthropes, 10' Radius (FR6)
+
+level 3
+Protection from All Lycanthropes, 10' Radius (FR6)
+Protection from Electricity, 10' Radius (FR6)
+Protection from Glebes (Dra #229)
+Protection from Illusions (FR6)
+Protection from Magical Weapons (FR6)
+Protection from Paralyzation (FR6)
+Protection from Specific Elementals, 10' Radius (FR6)
+Protection from Specific Undead, 5' Radius (FR6)
+Protection from Water (FR6)
+
+level 4
+Protection from All Elementals, 10' Radius (FR6)
+Protection from All Undead, 5' Radius (FR6)
+Protection from Breath Weapons - Dragon (FR6)
+Protection from Breath Weapons - Non-Dragon (FR6)
+Protection from Cold, 15' Radius (FR6)
+Protection from Fire, 15' Radius (FR6)
+Protection from Gas, 5' Radius (FR6)
+Protection from Mechanical Traps (FR6)
+Protection from Petrification, 10' Radius (FR6)
+Protection from Possession, 10' Radius (FR6)
+Protection from Prime, 10' Radius (PH)
+Protection from Shape-changers, 10' Radius (FR6)
+
+level 5
+Protection from Acid (FR6)
+Protection from Magical Traps, 5' Radius (FR6)
+
+level 6
+Protection from Any Traps, 5' Radius (FR6)
+Protection from Magic, 5' Radius (FR6)
+
+level 7
+Negative Plane Protection (PftM)
+
+***** Summoning / Conjuring Spells *****
+level 1
+Summon Undead (FR6)
+
+level 2
+Summon Swarm
+
+level 3
+
+level 4
+Summon Lycanthrope (ToM)
+
+level 5
+Conjure Nightmare (Dra#221)
+Summon Darsson (PftM)
+Summon Shadow
+
+level 6
+Conjure Animals
+Summon Spider (FOR2)
+
+level 7
+Conjure Greater Elemental (DK)
+Drawmij's Instant Summons
+Intensify Summoning (ToM)
+Summon Ice Mephits (Dra #229)
+Summon Wind (Dra#220)
+
+level 8
+
+level 9

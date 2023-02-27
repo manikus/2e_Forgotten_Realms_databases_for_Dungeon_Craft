@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti);
+
+
+a:link { color: #D33038; text-decoration: none ; font-weight: bold;}
+
+a:visited { color: #D33038; text-decoration: none ; font-weight: bold;}
+
+a:active { color: #D33038; ; font-weight: bold;}
+
+a:hover { color: #D33038; ; font-weight: bold; text-shadow: 1px 1px 1px black;}
+
+/*.fa-stack:hover  {
+	text-shadow: 1px 1px 1px black;
+}  */
+
+a.navigation:link { color: white; text-decoration: none ; font-weight: bold;}
+
+a.navigation:visited { color: white; text-decoration: none ; font-weight: bold;}
+
+a.navigation:active { color: yellow; ; font-weight: bold;}
+
+a.navigation:hover { color: yellow; ; font-weight: bold;}
+
+BODY {
+	background: white;
+	}
+
+H1 { 
+		font-size: 20px;
+		font-weight: bold;
+		color: #445498;
+}
+
+H2 { 
+		font-size: 18px;
+		font-weight: bold;
+		color: #445498;
+}
+
+H3 { 
+		font-size: 16px;
+		font-weight: bold;
+		color: #445498;
+}
+
+H4 { 
+		font-size: 14px;
+		font-weight: bold;
+		color: #445498;
+}
+
+TABLE {	
+		empty-cells:show; 
+		border-collapse: collapse; 
+}
+
+
+TABLE.zebra tr:nth-child(2n+1) /* represents every odd row of an HTML table */ {
+  background-color: white;
+}
+TABLE.zebra tr:nth-child(odd)  /* same */ {
+  background-color: white;
+}
+TABLE.zebra tr:nth-child(2n+0) /* represents every even row of an HTML table */ {
+  background-color: #E4E8F3;
+}
+TABLE.zebra tr:nth-child(even) /* same */ {
+  background-color: #E4E8F3;
+}
+
+TD { 
+		font-size: 16px;
+		font-family: Calibri; 
+}
+
+TD.padded { 
+		font-size: 16px;
+		font-family: Calibri; 
+		padding-top: 10px;
+}
+
+TH.main {
+		font-size: 20px;
+		font-family: Calibri;
+		color: white;
+		background-color: #445498;
+		border-top: 3px solid black;
+		border-bottom: 3px solid black;
+		padding: 1px; 
+}
+
+TH.subheader { 
+		font-weight: bold;
+		text-align: center;
+		border-topo: 2px solid black;
+		border-bottom: 2px solid black;
+		background-color: white;
+		font-size: 18px;
+		font-family: Calibri;
+		color: black;
+}
+
+TH.smaller-main {
+		font-size: 18px;
+		font-family: Calibri;
+		color: white;
+		background-color: #445498;
+		border-top: 3px solid black;
+		border-bottom: 3px solid black;
+		padding: 1px; 
+}
+
+
+TH.smaller-subheader { 
+		font-weight: bold;
+		text-align: center;
+		border-topo: 2px solid black;
+		border-bottom: 2px solid black;
+		background-color: white;
+		font-size: 16px;
+		font-family: Calibri;
+		color: black;
+}
+
+td.tble_back_monster { background-color: #D33038; color: white; font-size: 16px; }
+
+img.art-sized { float: right; }
+
+.footnote { 
+		font-size: 12px;
+		font-family: Calibri;
+		color: #5D5D5D; 
+}
+
+.freelance_note { 
+		font-style: italic;
+}
+
+.freelance_title { 
+		font-size: 18px;
+		font-weight: bold;
+		color: #445498; 
+}
+
+.main_title { 
+		font-family: 'Calligraffitti', cursive;
+		font-size: 26px;
+		color: black; 
+}
+
+.text-header { 
+		color: #445498; 
+		font-weight: bold;
+}
+
+.odd-row { 
+		background-color: #E4E8F3; 
+}
+
+.wod_maneuver { 
+		font-size: 16px;
+		font-weight: bold;
+		font-style: italic;
+		color: #445498; 
+}
+
+.wod_style { 
+		font-size: 18px;
+		font-weight: bold;
+		color: #445498; 
+}

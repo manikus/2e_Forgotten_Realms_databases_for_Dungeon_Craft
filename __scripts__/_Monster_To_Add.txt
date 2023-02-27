@@ -1,0 +1,93 @@
+#### List of 1E AD&D Monsters that aren't in DC, but should be:  (from Nol Drek)####
+
+-A-
+%Ankheg*
+%Ant, Giant*
+%Ape, Carnivorous
+
+-B-
+%Beetle (Bombardier, Fire)*
+_% Beetle (Rhinoceros, Stag)
+
+-C-
+%Chimera-
+%Crab, Giant
+
+-D-
+_%Death Knight
+%Doppleganger
+*Dracolisk*
+_% Dragon, Bronze
+*Drider*
+
+-G-
+%Gas Spore*
+%Ghost*
+*Gorgon*
+%Gray Ooze
+%Groaning Spirit (Banshee)*
+
+-H-
+%Harpy*
+_% Hippogriff
+%Homonculous
+%Hyaenodon (Giant Hyena)
+*Hydra*
+%Hydra, Pyrohydra*
+_%Hydra. Cryohydra
+
+-J-
+%Jackalwere
+
+-L-
+%Leucrotta
+%Lizard (Giant, Minotaur)*
+
+-M-
+%Manticore
+%Mimic
+
+-N-
+%Naga, Spirit
+%Nightmare*
+
+-0-
+%Octopus, Giant*
+%Ochre Jelly
+
+-P-
+*Phase Spider*
+
+-Q-
+%Quasit
+
+-R-
+*Rakshasa*
+_Revenant
+_% Rhea (flightless bird)
+%Roc*
+%Roper
+%Rust Monster
+
+-S-
+*Salamander*
+%Sea Hag
+_Skeleton Warrior
+%Snake, Amphisbaena
+*Spectre*
+_% Sphynx
+
+-T-
+%Tick, Giant
+
+-W-
+%Wasp, Giant*
+%Water Weird*
+%Will-o-wisp
+
+* = Default FRUA Monsters that are not in DC
+% = Monsters that are in the Monster Manual but not in DC
+* suffix = seconded by Steve
+_ = from  Steve
+
+#### End of List ####

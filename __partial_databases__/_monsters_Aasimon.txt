@@ -1,0 +1,336 @@
+// Aasimon
+// yet to add:
+// teleport w/o error once per round
+//
+// devas have:
+// cure disease x3, dispel magic x7
+// once per round: infravision, light, remove fear, remove curse
+//
+// light have:
+// dispel evil x3, hold person x7, continual light x7, hold person x7
+// once per round: light, bless
+//
+// planetars have:
+// blade barrier x3, feeblemind x1, fire storm x1, flame strike x3, holy word x1, insect plague x1, raise dead x3, restoration x1, symbol x1
+// once per round: cure blindness or deafness, Cure disease, dispel magic, 
+// always active: true seeing
+//
+// solars have:
+// confusion x3, fire storm x1, holy word x3, imprisonment x1, mass charm x3, power word any x1, prismatic spray x1, restoration x1, resurrection x3, xymbol x3, vanish x3, 
+// once per round: heal, improved invisibility, 
+// always active: infravision, 
+//
+\(BEGIN)
+name = Astral Deva
+icon file = icon_AstralDeva.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 18
+armor class = -5
+movement rate = 24
+hit dice = 12
+treat HD as hit points = yes
+hit dice bonus = 
+THAC0 = 9
+magic resistance = 70
+size = medium
+morale = 50
+experience point value = 60000
+Special Ability = elementalImmuneCold
+Special Ability = elementalImmuneElectricity
+Special Ability = elementalResistantAcid
+Special Ability = elementalResistantFire
+Special Ability = monsterCombatantAlignment,good
+Special Ability = monsterImmuneGas
+Special Ability = monsterImmuneLevelLoss
+Special Ability = monsterImmuneMagicMissile
+Special Ability = monsterImmuneNormalFire
+Special Ability = monsterImmunePetrification
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,12
+Special Ability = monsterSummoned,upper
+Special Ability = monsterWeaponImmunity,2
+Class = Fighter
+Race = Aasimon
+form = none
+penalty = none
+immunity = none
+Misc Options = can be held/charmed + none
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericHeal
+item = monsterMageInvisibility
+attack = 6,3,0,attacks,
+attack = 6,3,0,attacks,
+Undead = none
+\(END)
+// detect invisibility, blade barrier x1
+
+\(BEGIN)
+name = Light
+icon file = icon_Light.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 12
+armor class = -10
+movement rate = 48
+hit dice = 10
+treat HD as hit points = yes
+hit dice bonus = 
+THAC0 = 11
+magic resistance = 50
+size = medium
+morale = 50
+experience point value = 35000
+Special Ability = monsterCombatantAlignment,good
+Special Ability = monsterLevel,10
+Special Ability = monsterSummoned,upper
+Special Ability = monsterWeaponImmunity,2
+Special Ability = elementalResistantAcid
+Special Ability = elementalResistantCold
+Special Ability = elementalResistantElectricity
+Special Ability = monsterImmuneCharm
+Special Ability = monsterImmuneGas
+Special Ability = monsterImmunePoison
+Special Ability = monsterImmuneSleep
+Special Ability = monsterProtectionFromEvil
+Class = Fighter
+Race = Aasimon
+form = none
+penalty = none
+immunity = none
+Misc Options = can be held/charmed + none
+item = 
+attack = 12,1,0,zaps,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Monadic Deva
+icon file = icon_MonadicDeva.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 18
+armor class = -3
+movement rate = 15
+hit dice = 10.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 11
+magic resistance = 60
+size = medium
+morale = 50
+experience point value = 52500
+Special Ability = elementalImmuneCold
+Special Ability = elementalImmuneElectricity
+Special Ability = elementalResistantAcid
+Special Ability = elementalResistantFire
+Special Ability = monsterCombatantAlignment,good
+Special Ability = monsterImmuneGas
+Special Ability = monsterImmuneLevelLoss
+Special Ability = monsterImmuneMagicMissile
+Special Ability = monsterImmuneNormalFire
+Special Ability = monsterImmunePetrification
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,12
+Special Ability = monsterSummoned,upper
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Aasimon
+form = none
+penalty = none
+immunity = none
+Misc Options = can be held/charmed + none
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericHeal
+item = monsterMageInvisibility
+attack = 4,3,8,attacks,
+attack = 4,3,8,attacks,
+Undead = none
+\(END)
+// hold monster, mirror image, charm elemental (just like charm person but for elementals)
+
+\(BEGIN)
+name = Movanic Deva
+icon file = icon_MovanicDeva.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 18
+armor class = -1
+movement rate = 12
+hit dice = 8
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 0
+size = medium
+morale = 50
+experience point value = 78500
+Special Ability = elementalImmuneCold
+Special Ability = elementalImmuneElectricity
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantAcid
+Special Ability = monsterCombatantAlignment,good
+Special Ability = monsterImmuneDeathSpells
+Special Ability = monsterImmuneGas
+Special Ability = monsterImmuneMagicMissile
+Special Ability = monsterImmuneNormalFire
+Special Ability = monsterImmunePetrification
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,12
+Special Ability = monsterRegeneration,2
+Special Ability = monsterSummoned,upper
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Aasimon
+form = none
+penalty = none
+immunity = none
+Misc Options = can be held/charmed + none
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericCureLightWounds
+item = monsterClericHeal
+item = monsterMageInvisibility
+attack = 6,1,0,attacks,
+attack = 6,1,0,attacks,
+Undead = none
+\(END)
+// protection from normal missilies, anti-magic shell
+// always active: double-strength prot. from evil
+// "rescued" by planetar 30% - if hp gets 10 or less
+
+\(BEGIN)
+name = Planetar
+icon file = icon_Planetar.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 18
+armor class = -7
+movement rate = 15
+hit dice = 14
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 7
+magic resistance = 75
+size = medium
+morale = 50
+experience point value = 143500
+Special Ability = elementalImmuneCold
+Special Ability = elementalImmuneElectricity
+Special Ability = elementalResistantAcid
+Special Ability = elementalResistantFire
+Special Ability = monsterCombatantAlignment,good
+Special Ability = monsterDetectIllusioin
+Special Ability = monsterDetectInvisibility
+Special Ability = monsterImmuneCharm
+Special Ability = monsterImmuneConfustion
+Special Ability = monsterImmuneDeathSpells
+Special Ability = monsterImmuneFeeblemind
+Special Ability = monsterImmuneGas
+Special Ability = monsterImmuneMagicMissile
+Special Ability = monsterImmuneNormalFire
+Special Ability = monsterImmunePetrification
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,14
+Special Ability = monsterProtectionFromEvil40'Radius
+Special Ability = monsterRegeneration,4
+Special Ability = monsterSummoned,upper
+Special Ability = monsterWeaponImmunity,4
+Class = Fighter
+Race = Aasimon
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Planetar's Great Sword
+attack = 10,1,10,attacks,
+attack = 10,1,10,attacks,
+attack = 10,1,10,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Solar
+icon file = icon_Solar.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 20
+armor class = -10
+movement rate = 18
+hit dice = 177
+treat HD as hit points = no
+hit dice bonus = 0
+THAC0 = 5
+magic resistance = 0
+size = medium
+morale = 50
+experience point value = 225000
+Special Ability = elementalImmuneAcid
+Special Ability = elementalImmuneCold
+Special Ability = elementalImmuneElectricity
+Special Ability = elementalImmuneFire
+Special Ability = monsterCombatantAlignment,good
+Special Ability = monsterDetectEvil
+Special Ability = monsterDetectIllusioin
+Special Ability = monsterDetectInvisibility
+Special Ability = monsterDetectMagic
+Special Ability = monsterImmuneCharm
+Special Ability = monsterImmuneConfusion
+Special Ability = monsterImmuneDeathSpells
+Special Ability = monsterImmuneDomination
+Special Ability = monsterImmuneFeeblemind
+Special Ability = monsterImmuneGas
+Special Ability = monsterImmuneHold
+Special Ability = monsterImmuneLevelLoss
+Special Ability = monsterImmunePoison
+Special Ability = monsterImprisonment
+Special Ability = monsterLevel,20
+Special Ability = monsterProtectionFromEvil40'Radius
+Special Ability = monsterRegeneration,7
+Special Ability = monsterSummoned,upper
+Special Ability = monsterWeaponImmunity,
+Class = Fighter
+Race = Aasimon
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Arrow|5,40
+item = Solar's Long Bow
+item = Solar's Long Sword
+attack = 10,2,16,attacks,
+attack = 10,2,16,attacks,
+attack = 10,2,16,attacks,
+attack = 10,2,16,attacks,
+Undead = none
+\(END)
+// LG summon 1-2 ki-rin (75%) x3, NG summon 1-2 phoenix (75%) x3, CG summon 1-2 greater titans (75%) x3
+

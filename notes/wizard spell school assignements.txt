@@ -1,0 +1,329 @@
+// level 1
+Burning Hands
+Alteration
+
+Charm Person
+Enchantment
+
+Chill Touch
+Necromancy
+
+Detect Magic
+Divination
+
+Detect Undead
+Necromancy
+
+Enlarge
+Alteration
+
+Friends
+Enchantment/Charm
+
+Magic Missile
+Invocation/Evocation
+
+Protection From Evil|Wizard
+Abjuration
+
+Protection From Good|Wizard
+Abjuration
+
+Read Magic
+Lesser Divination
+
+Reduce
+Alteration
+
+Shield
+Invocation/Evocation
+
+Shocking Grasp
+Alteration
+
+Sleep
+Enchantment/Charm
+
+// wizard level 2
+Blur
+Illusion/Phantasm
+
+Choke
+Necromancy
+
+Cloak Undead
+Necromancy
+
+Detect Evil
+Lesser Divination
+
+Detect Invisibility
+Lesser Divination
+
+Invisibility
+Illusion/Phantasm
+
+Knock
+Alteration
+
+Know Alignment
+Lesser Divination
+
+Mirror Image
+Illusion/Phantasm
+
+Ray of Enfeeblement
+Enchantment/Charm
+
+Stinking Cloud
+Invocation/Evocation
+
+Strength
+Alteration
+
+// wizard level 3
+Blink
+Alteration
+
+Dispel Magic|Wizard
+Abjuration
+
+Fireball
+Invocation/Evocation
+
+Haste
+Alteration
+
+Hold Person|Wizard
+Enchantment/Charm
+
+Hold Undead
+Necromancy
+
+Invisibility 10' Radius
+Illusion/Phantasm
+
+Lightning Bolt
+Invocation/Evocation
+
+Monster Summoning I
+Conjuration/SUmmoning
+
+Mummy Touch
+Necromancy
+
+Paralyze
+Necromancy
+
+Protection From Evil 10' Radius| Magic User
+Abjuration
+
+Protection From Good 10' Radius| Magic User
+Abjuration
+
+Protection from Normal Missiles
+Abjuration
+
+Slow
+Alteration
+
+Vampiric Touch
+Necromancy
+
+// wizard level 4
+Bestow Curse|Wizard
+Abjuration
+
+Charm Monster
+Enchantment/Charm
+
+Confusion
+Enchantment/Charm
+
+Contagion
+Necromancy
+
+Dimension Door
+Alteration
+
+Enervation
+Necromancy
+
+Fear
+Illusion/Phantasm
+
+Fire Shield
+Alteration
+
+Fumble
+Enchantment/Charm
+
+Ice Storm
+Invocation/Evocation
+
+Improved Invisibility
+Illusion/Phantasm
+
+Minor Globe of Invulnerability
+Abjuration
+
+Monster Summoning II
+Conjuration/SUmmoning
+
+Remove Curse|Wizard
+Abjuration
+
+Shadow Monsters
+Illusion/Phantasm
+
+// wizard level 5
+Animate Dead
+Necromancy
+
+Cloudkill
+Invocation/Evocation
+
+Cone of Cold
+Invocation/Evocation
+
+Conjure Air Elemental
+Conjuration/SUmmoning
+
+Conjure Earth Elemental
+Conjuration/SUmmoning
+
+Conjure Fire Elemental
+Conjuration/SUmmoning
+
+Conjure Water Elemental
+Conjuration/SUmmoning
+
+Demi-Shadow Monsters
+Illuson/Phantasm
+
+Feeblemind
+Enchantment/Charm
+
+Hold Monster
+Enchantment/Charm
+
+Monster Summoning III
+Conjuration/SUmmoning
+
+Shadow Door
+Illusion/Phantasm
+
+Shadow Magic
+Illusion/Phantasm
+
+Summon Shadow
+necromancy
+
+// wizard level 6
+Death Spell
+Necromancy
+
+Demi-Shadow Magic
+Illusion/Phantasm
+
+Disintegrate
+Alteration
+
+Flesh to Stone
+Alteration
+
+Globe of Invulnerability
+Abjuration
+
+Heal Self
+Necromancy
+
+Invisible Stalker
+Conjuration/SUmmoning
+
+Monster Summoning IV
+Conjuration/SUmmoning
+
+Shades
+Illusion/Phantasm
+
+Stone to Flesh
+Alteration
+
+// wizard level 7
+Banishment
+Abjuration
+
+Bigby's Grasping Hand
+Invocation/Evocation
+
+Charm Plants
+Enchantment/Charm
+
+Control Undead
+Necromancy
+
+Delayed Blast Fireball
+Invocation/Evocation
+
+Finger of Death
+Necromancy
+
+Mass Invisibility
+Illusion/Phantasm
+
+Monster Summoning V
+Conjuration/SUmmoning
+
+Mordenkainen's Sword
+Invocation/Ecovation
+
+Power Word, Stun
+Conjuration/SUmmoning
+
+Spell Turning
+Abjuration
+
+// wizard level 8
+Bigby's Clenched Fist
+Invocation/Evocation
+
+Mass Charm
+Enchantment/Charm
+
+Mind Blank
+Abjuration
+
+Monster Summoning VI
+Conjuration/SUmmoning
+
+Otto's Irresistible Dance
+Enchantment/Charm
+
+Power Word, Blind
+Conjuration/SUmmoning
+
+Regenerate
+Necromancy
+
+Serten's Spell Immunity
+Abjuration
+
+Shadow Form
+Necromancy
+
+// wizard level 9
+Energy Drain
+Necromancy
+
+Meteor Swarm
+Invocation/Evocation
+
+Monster Summoning VII
+Conjuration/SUmmoning
+
+Power Word, Kill
+Conjuration/SUmmoning
+
+Restoration
+Necromancy

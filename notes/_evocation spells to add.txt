@@ -1,0 +1,59 @@
+level 9
+FOR6 The Seven Sisters p102
+Juggernaut
+(Evocation)
+Range: 10 feet/level
+Components: V, S, M
+Duration: 1 round/level
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+This spell calls into being a large, mobile humanoid
+form similar to a featureless, genderless, naked
+human. The form seems to rise up out of the ground in
+front of the caster, facing away from its creator. Despite
+the spell name, it is not a juggernaut golem.
+The juggernaut can be up to 100 feet in height, with a
+reach of up to 80 feet. It is AC -2, has MV 6, has 99 hp,
+and attacks targets (chosen by silent will of the caster)
+with its fists. It can strike once with each fist in a round,
+with a THAC0 two points better than its creator. (In
+other words, if its caster has a THAC0 of 14, the juggernaut
+strikes at THAC0 12.) It deals 8d8 points of damage
+per successful blow. It can grasp and carry items,
+including foes. It inflicts 6d8 points of damage with its
+grab, plus constricting damage of 5d8 points per round
+thereafter until the victim makes successful Dexterity,
+Constitution, and Strength ability checks all in the same
+round. (Check all three each round.)
+A fall from a juggernauts hand results in normal
+falling damage of 1d6 points per 10 feet fallen. A being
+thrown by a juggernaut suffers double falling damage
+on impact and receives no saving throw (unless the
+thrown being can fly or use magic to slow his or her
+flight)! A juggernaut cannot wield magic, even wands
+or worn items such as magical rings, and the caster
+cannot east spells through its body.
+A juggernaut looks like a bald-headed human with
+no recognizable features except a mouth. It seems to be
+made of the same substance as the ground it appears
+from, although it is in actuality purely a spell manifestation.
+It can roar out a word or a phrase of up to six
+words that are whispered by the caster during the
+spells casting, as often as desired. These words cannot
+be a spell incantation, and they do not issue forth if
+they are words that trigger or activate any magic.
+A juggernaut within 60 feet of its caster draws into
+itself all magical attacks specifically meant for the
+caster, such as magic missiles, feeblemind spells, and so
+on. The spell effects are then visited on the juggernaut,
+not the caster. Spells that normally rebound from solid
+forms or burst, such as fireball and lightning bolt, are
+drawn into the juggernauts body so that they do no
+harm to the surroundings.
+When the spell expires or the juggernaut is destroyed
+by accrued damage, it simply fades away.
+The material components of this spell are a ball of
+clay that fills the casters palm, a bit of string, wire,
+or natural fiber, and a gem of any type worth at least
+500 gp.

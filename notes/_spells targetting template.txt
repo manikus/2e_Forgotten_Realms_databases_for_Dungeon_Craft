@@ -1,0 +1,72 @@
+targeting type = areacircle
+target quantity = 
+target range = 
+target radius = 
+level = 
+casting time = 
+casting time units = initiative
+duration = 
+duration units = instantaneous
+target duration = 0
+
+*******************************************************************************
+
+targeting type = areasquare
+target width = 
+target height = 
+target range = 
+level = 
+casting time = 
+casting time units = initiative
+duration = 
+duration units = rounds
+target duration = 0
+
+************************************************************************************
+
+targeting type = selectByCount
+target quantity = 
+target range = 
+level = 
+casting time = 
+casting time units = initiative
+duration = 
+duration units = rounds
+target duration = 0
+
+************************************************************************************
+
+targeting type = arealinepickstart
+target width = 
+target length = 
+target range = 
+level = 
+casting time = 
+casting time units = initiative
+duration = 
+duration units = instantaneous
+target duration = 0
+
+**********************************************************************************
+
+targeting type = touch
+target quantity = 
+level = 
+casting time = 
+casting time units = initiative
+duration = 
+duration units = rounds
+target duration = 0
+
+*********************************************************************************
+
+targeting type = areacone
+target width = 
+target length = 
+target range = 
+level = 
+casting time = 
+casting time units = initiative
+duration = 
+duration units = instantaneous
+target duration = 0

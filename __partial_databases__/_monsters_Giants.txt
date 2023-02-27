@@ -1,0 +1,411 @@
+// giants
+
+\(BEGIN)
+name = Cloud Giant
+icon file = icon_CloudGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 10
+armor class = 0
+movement rate = 15
+hit dice = 16
+treat HD as hit points = yes
+hit dice bonus = 5
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 45
+experience point value = 10000
+Special Ability = monsterLevel,18
+Class = Fighter
+Race = Giant
+form = giant + large + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = none
+Misc Options = can be held/charmed + none
+item = none
+attack = 10,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Cyclops
+icon file = icon_Cyclops.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 15
+hit dice = 13
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 7
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 4000
+Special Ability = monsterLevel,13
+Special Ability = monsterCombatantAlignment,evil
+Class = Fighter
+Race = Giant
+form = giant + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = vorpal weapon + none
+Misc Options = can be held/charmed + none
+item = none
+attack = 6,6,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Desert Giant
+icon file = icon_DesertGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 9
+armor class = 1
+movement rate = 15
+hit dice = 13
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 7
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 5000
+Special Ability = monsterLevel,13
+Class = Fighter
+Race = Giant
+form = giant + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = vorpal weapon + none
+Misc Options = can be held/charmed + none
+item = none
+attack = 10,1,10,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Ettin
+icon file = icon_Ettin.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 3
+movement rate = 12
+hit dice = 10.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 11
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 3000
+Special Ability = monsterLevel,10
+Special Ability = monsterCombatantAlignment,evil
+Class = Fighter
+Race = Giant
+form = giant + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = vorpal weapon + none
+Misc Options = can be held/charmed + none
+item = none
+attack = 10,1,0,attacks,
+attack = 10,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Fire Giant
+icon file = icon_FireGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 9
+armor class = -1
+movement rate = 12
+hit dice = 15
+treat HD as hit points = yes
+hit dice bonus = 3
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 8000
+Special Ability = monsterLevel,16
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = elementalImmuneFire
+Class = Fighter
+Race = Giant
+form = giant + large + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = none
+Misc Options = can be held/charmed + none
+item = none
+attack = 8,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Fog Giant
+icon file = icon_FogGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 11
+armor class = 1
+movement rate = 15
+hit dice = 14
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 7
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 5000
+Special Ability = monsterLevel,14
+Special Ability = monsterCombatantAlignment,evil
+Class = Fighter
+Race = Giant
+form = giant + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = vorpal weapon + none
+Misc Options = can be held/charmed + none
+item = none
+attack = 10,1,10,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Frost Giant
+icon file = icon_FrostGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 9
+armor class = 0
+movement rate = 12
+hit dice = 14
+treat HD as hit points = yes
+hit dice bonus = 2
+THAC0 = 7
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 7000
+Special Ability = monsterLevel,11
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = elementalImmuneCold
+Class = Fighter
+Race = Giant
+form = giant + large + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = none
+Misc Options = can be held/charmed + none
+item = none
+attack = 8,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Hill Giant
+icon file = icon_HillGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 3
+movement rate = 12
+hit dice = 12
+treat HD as hit points = yes
+hit dice bonus = 1
+THAC0 = 9
+magic resistance = 0
+size = medium
+morale = 35
+experience point value = 3000
+Special Ability = monsterLevel,12
+Special Ability = monsterCombatantAlignment,evil
+Class = Fighter
+Race = Giant
+form = giant + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = none
+Misc Options = can be held/charmed + none
+item = none
+attack = 8,2,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Hill Giant Shaman
+icon file = icon_HillGiantShaman.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 10
+armor class = 3
+movement rate = 12
+hit dice = 13
+treat HD as hit points = yes
+hit dice bonus = 2
+THAC0 = 9
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 4000
+Special Ability = monsterLevel,14
+Special Ability = monsterCombatantAlignment,evil
+Class = Cleric
+Race = Giant
+form = giant + large + none
+penalty = none
+immunity = none
+Misc Options = none
+item = monsterClericCauseLightWounds
+item = monsterClericCauseLightWounds
+item = monsterClericHoldPerson
+item = monsterClericHoldPerson
+attack = 8,2,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Jungle Giant
+icon file = icon_JungleGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 11
+armor class = 3
+movement rate = 15
+hit dice = 11
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 9
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 6000
+Special Ability = monsterLevel,11
+Special Ability = monsterCombatantAlignment,evil
+Class = Fighter
+Race = Giant
+form = giant + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = vorpal weapon + none
+Misc Options = can be held/charmed + none
+item = none
+attack = 6,2,9,attacks,
+attack = 6,2,9,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Mountain Giant
+icon file = icon_MountainGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 9
+armor class = 4
+movement rate = 12
+hit dice = 15
+treat HD as hit points = yes
+hit dice bonus = 3
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 7000
+Special Ability = monsterLevel,16
+Special Ability = monsterCombatantAlignment,evil
+Class = Fighter
+Race = Giant
+form = giant + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = vorpal weapon + none
+Misc Options = can be held/charmed + none
+item = none
+attack = 8,1,10,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Stone Giant
+icon file = icon_StoneGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 9
+armor class = 0
+movement rate = 12
+hit dice = 14
+treat HD as hit points = yes
+hit dice bonus = 2
+THAC0 = 7
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 7000
+Special Ability = monsterLevel,15
+Class = Fighter
+Race = Giant
+form = giant + large + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = none
+Misc Options = can be held/charmed + none
+item = none
+attack = 8,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Storm Giant
+icon file = icon_StormGiant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 16
+armor class = -6
+movement rate = 15
+hit dice = 19
+treat HD as hit points = yes
+hit dice bonus = 5
+THAC0 = 3
+magic resistance = 0
+size = large
+morale = 45
+experience point value = 14000
+Special Ability = monsterLevel,21
+Special Ability = elementalImmuneElectricity
+Class = Fighter
+Race = Giant
+form = giant + large + none
+penalty = DwarfAC + GnomeAC + RangerDmg + none
+immunity = none
+Misc Options = can be held/charmed + none
+item = monsterMageLightningBolt
+item = monsterMageLightningBolt
+item = monsterMageLightningBolt
+attack = 6,7,0,attacks,
+Undead = none
+\(END)
+

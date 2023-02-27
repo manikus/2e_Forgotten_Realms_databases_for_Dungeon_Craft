@@ -1,0 +1,1784 @@
+// Class database file
+// The above line must appear exactly as shown."// Class database file"
+//
+// Valid Classes per 2e PHB Revised
+//  Dwarf: Cleric, Fighter, Thief, Cleric/Fighter, Fighter/Thief	
+//  Elf: Cleric, Fighter, Mage, Ranger, Thief, Fighter/Mage, Fighter/Thief, Mage/Thief
+//  Gnome: Cleric, Fighter, Illusionist, Thief, Cleric/Fighter, Cleric/Illusionist, Cleric/Thief, Fighter/Illusionist, Fighter/Thief, Illusionist/Thief
+//  Half-elf: Bard, Cleric, Druid, Fighter, Mage, Paladin, Ranger, Thief, Cleric/Fighter, Cleric/Fighter/Mage, Cleric/Mage, Cleric/Ranger, Druid/Fighter, Druid/Fighter/Mage, Druid/Mage, Druid/Ranger, Fighter/Mage, Fighter/Mage/Thief, Fighter/Thief, Mage/Thief
+//  Halfling: Cleric, Fighter, Thief, Fighter/Thief
+//  Human: Bard, Cleric, Druid, Fighter, Paladin, Ranger, Thief
+//	Specialty Wizards:
+//		Abjurer (W15), Conjurer (C15), Diviner (W16), Enchanter (CH16), Illusionist (D16), Invoker (C16), Necromancer (W16), Transmuter (D15)
+//	Specialty Priests Humans:
+//		Akadia (C12, W12 Airwalker), Auril (C13, W12 Icepriest), Azuth (W14, I13 Magistati), Beshaba (W10 Doommaster), Cyric (W13, S13 Strifeleader), Deneir (W15, I15 Glyphscribe), Eldath (CH13, W14 Peaceman), Gond  (W14, I14, D14 Gondsman), Grumbar (S12, W12 Earthwalker), Helm (S14, W13 Watcher), Ilmater (C14, W12 Painbringer), Istishia (S12, W12 Waterwalker), Iyachtu Xvim (S12, W12 Authlim), Kelemvor (C12, W14 Doomguide), Kossuth (C12, W12 Firewalker), Lathander (CH12, W14 Morninglords), Lliira (CH13. W13 Joydancers), Loviatar (C15, W15 Pains), Malar (S13, W12 Talons), Mask (W14, D14 Demarch), Milil (W14, I13, CH14 Tunesinger), Mystra (W12, I14 Dwoemerkeeper), Oghma (W14, I12 Lorekeepers), Selune (W14, C12 Silverstars), Shar (S12, W14 Nightcloak), Shaundakul (S13, C11, W14 Windwalker), Sune (W12, CH16 Hearthwarder), Talona (W14, C14 Malagents), Talos (S13, W14 Stormlords), Tempus (S14, W12 Battleguards), Torm (W15, C12 Holy Champion), Tymora (W15, D14 Luckbringers) , Tyr (S9, W9  Holy Justices), Umberlee (W13, C15  Waveservants), Waukeen (W14, I12, CH12  Goldeyes)
+//	Specialty Priests Dwarves:
+//		Abbathor (D11, W9 Aetharnar), Berronar Truesilver (S9, W12 Faernar), Clangeddin Silverbeard (S15, W9 Alaghar), Dugmaren Brightmantle (I10, W13 Xothar), Dumathoin (C12, W9 Delvesonns), Gorm Gulthyn (S9, C10, W9 Barakor), Haela Brightaxe (S11, D10, W9 Luckmaidens), Laduguer (S15, D12, W9 Thuldor), Marthammor Duin (C11, W9 Trailblazers), Moradin (S10, W11 Sonnlinor), Sharindlar (C9, W11 Thalornor), Thard Harr (D9, W9 Vuddor), Vergadain (D12, W9 Hurndor)
+//	Specialty Priests Elves:
+//		Aerdrie Faenya (D13, W13 Halcyons), Angharradh (W12, CH15 Totem Sister), Corellon Larethian (S11, I11, W9 Feywardens), Erevan Illesere (D13, I10, W9 Mischiefmaker), Fenmarel Mestarine (C15, W9 Lone Wolf), Hanali Celanil (W12, CH16 Goldhearts), Labelas Enoreth (I11, W12 Chronologian), Sehanine Moonbow (I9, W13 Starsinger), Shevarash (S11, I11, W9 Dhaeraowathila)
+// Note: Rillifane Rallathil uses Druids, Solonor Thelandira uses Rangers
+//	Specialty Priests Gnomes:
+//		Baervan Wildwanderer (C10, W9 Fastpaws), Baravar Cloakshadow (D15, I15, W9 Hoodwinkers), Callarduran Smoothhands (I12, W12 Earthbloods), Flandal Steelskin (S12, W9, C12 Pyrosmiths), Gaerdal Ironhand (S13, W9 Sternshields), Garl Glittergold (D11, I11, W9 Glitterbright), Segojan Earthcaller (C12, W9 Earth-friend), Urdlen (S11, W9 Bloodstalkers)
+//	Specialty Priests Halflings:
+//		Arvoreen (S12, W9 Truesword), Brandobaris (D13, W9 Misadventurer), Cyrrollalee (W9, CH9 Homesteader), Sheela Peryroyl (C12, W13 Greenfoster), Urogalan (W13 Grimwarden) Yondalla (W13 Horn Guard)
+//	Specialty Priests from Powers & Pantheons, Faerunian Pantheon:
+//		Finder Wyvernspur (W11, CH15 Finder), Garagos (S13, W9, C11 Bloodreaver), Gargauth (I16, W9 Malefactor), Hoar (D10, W9 Doombringer), Jergal (I11, W9 Doomscribe), Lurue (W13, C12 Silvermaid), Nobanion (S11, W12, CH11 Firemane), Red Knight (I13, W13, CH10 Holy Strategist), Savras (I11, W14 Sybilite), Sharess (W9, D10, CH11 Sensates), Siamorphe (19, W10, CH11 Highborn), Ulutiu (S12, W14 Nakarit), Valkur (S14, W10, CH12 Wavetamer), Velsharoon (I11, W16 Necrophant)
+// Note: Gwaeron Windstrom uses Rangers, Shiallia uses Druids, Uthgar uses Shamans
+//
+// FR 2e conversion
+
+\(BEGIN)
+name = Bard
+HitDiceLevelBonus = bard,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = bard
+Special Ability = class_baseName,$bard
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cleric
+HitDiceLevelBonus = cleric,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = cleric
+Special Ability = class_baseName,$cleric
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid
+HitDiceLevelBonus = druid,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = druid
+Special Ability = class_baseName,$druid
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fighter
+HitDiceLevelBonus = fighter,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+Baseclass = fighter
+Special Ability = class_NoSpells,fighter
+Special Ability = class_baseName,$fighter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Mage
+HitDiceLevelBonus = mage,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mage
+Special Ability = class_MageScribe,mage
+Special Ability = class_baseName,$mage
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Paladin
+baseclass = paladin
+HitDiceLevelBonus = paladin,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+Special Ability = class_Paladin
+Special Ability = class_baseName,$paladin
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name =  Ranger
+HitDiceLevelBonus = ranger,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = ranger
+Special Ability = class_baseName,$ranger
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Thief
+HitDiceLevelBonus = thief,Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = thief
+Special Ability = class_NoSpells,Thief
+Special Ability = class_baseName,$thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Specialty Mages
+\(BEGIN)
+name = Abjurer
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageAbjurer
+Special Ability = class_MageScribe,mageAbjurer
+Special Ability = class_baseName,$mageAbjurer
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Conjurer
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageConjurer
+Special Ability = class_MageScribe,mageConjurer
+Special Ability = class_baseName,$mageConjurer
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Diviner
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageDiviner
+Special Ability = class_MageScribe,mageDiviner
+Special Ability = class_baseName,$mageDiviner
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Enchanter
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageEnchanter
+Special Ability = class_MageScribe,mageEnchanter
+Special Ability = class_baseName,$mageEnchanter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Illusionist
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageIllusionist
+Special Ability = class_MageScribe,mageIllusionist
+Special Ability = class_baseName,$mageIllusionist
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Invoker
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageInvoker
+Special Ability = class_MageScribe,mageInvoker
+Special Ability = class_baseName,$mageInvoker
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Necromancer
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageNecromancer
+Special Ability = class_MageScribe,mageNecromancer
+Special Ability = class_baseName,$mageNecromancer
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Transmuter
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mageTransmuter
+Special Ability = class_MageScribe,mageTransmuter
+Special Ability = class_baseName,$mageTransmuter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Specialty Priests from Faiths & Avatars
+\(BEGIN)
+name = Airwalker
+// Priest of Akadi
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestAkadi
+Special Ability = class_PriestAkadi
+Special Ability = class_baseName,$priestAkadi
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Icepriest
+// Priest of Auril
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestAuril
+Special Ability = class_PriestAuril
+Special Ability = class_baseName,$priestAuril
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Magistati
+// Priest of Azuth
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestAzuth
+Special Ability = class_PriestAzuth
+Special Ability = class_baseName,$priestAzuth
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Doommaster
+// Priest of Beshaba
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestBeshaba
+Special Ability = class_PriestBeshaba
+Special Ability = class_baseName,$priestBeshaba
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Strifeleader
+// Priest of Cyric
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestCyric
+Special Ability = class_PriestCyric
+Special Ability = class_baseName,$priestCyric
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Glyphscribe
+// Priest of Deneir
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestDeneir
+Special Ability = class_PriestDeneir
+Special Ability = class_baseName,$priestDeneir
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Peaceman
+// Priest of Eldath
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestEldath
+Special Ability = class_PriestEldath
+Special Ability = class_baseName,$priestEldath
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Gondsman
+// Priest of Gond
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestGond
+Special Ability = class_PriestGond
+Special Ability = class_baseName,$priestGond
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Earthwalker
+// Priest of Grumbar
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestGrumbar
+Special Ability = class_PriestGrumbar
+Special Ability = class_baseName,$priestGrumbar
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Watcher
+// Priest of Helm
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestHelm
+Special Ability = class_PriestHelm
+Special Ability = class_baseName,$priestHelm
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Painbringer
+// Priest of Ilmater
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestIlmater
+Special Ability = class_PriestIlmater
+Special Ability = class_baseName,$priestIlmater
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Waterwalker
+// Priest of Istishia
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestIstishia
+Special Ability = class_PriestIstishia
+Special Ability = class_baseName,$priestIstishia
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Authlims
+// Priest of Iyachtu Xvim
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestIyachtu
+Special Ability = class_PriestIyachtu
+Special Ability = class_baseName,$priestIyachtu
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Doomguides
+// Priest of Kelemvor
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestKelemvor
+Special Ability = class_PriestKelemvor
+Special Ability = class_baseName,$priestKelemvor
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Firewalker
+// Priest of Kossuth
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestKossuth
+Special Ability = class_PriestKossuth
+Special Ability = class_baseName,$priestKossuth
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Morninglord
+// Priest of Lathander
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestLathander
+Special Ability = class_PriestLathander
+Special Ability = class_baseName,$priestLathander
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Joydancer
+// Priest of Lliira
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestLliira
+Special Ability = class_PriestLliira
+Special Ability = class_baseName,$priestLliira
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Pain
+// Priest of Loviatar
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestLoviatar
+Special Ability = class_PriestLoviatar
+Special Ability = class_baseName,$priestLoviatar
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Talon
+// Priest of Malar
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestMalar
+Special Ability = class_PriestMalar
+Special Ability = class_baseName,$priestMalar
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Demarch
+// Priest of Mask
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestMask
+Special Ability = class_PriestMask
+Special Ability = class_baseName,$priestMask
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Tunesinger
+// Priest of Milil
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestMilil
+Special Ability = class_PriestMilil
+Special Ability = class_baseName,$priestMilil
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Dwoemerkeeper
+// Priest of Mystra
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestMystra
+Special Ability = class_PriestMystra
+Special Ability = class_baseName,$priestMystra
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Lorekeeper
+// Priest of Oghma
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestOghma
+Special Ability = class_PriestOghma
+Special Ability = class_baseName,$priestOghma
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Silverstar
+// Priest of Selune
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSelune
+Special Ability = class_PriestSelune
+Special Ability = class_baseName,$priestSelune
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Nightcloak
+// Priest of Shar
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestShar
+Special Ability = class_PriestShar
+Special Ability = class_baseName,$priestShar
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Windwakler
+// Priest of Shaundakul
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestShaundakul
+Special Ability = class_PriestShaundakul
+Special Ability = class_baseName,$priestShaundakul
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Hearthwarder
+// Priest of Sune
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSune
+Special Ability = class_PriestSune
+Special Ability = class_baseName,$priestSune
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Malagent
+// Priest of Talona
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestTalona
+Special Ability = class_PriestTalona
+Special Ability = class_baseName,$priestTalona
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Stormlord
+// Priest of Talos
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestTalos
+Special Ability = class_PriestTalos
+Special Ability = class_baseName,$priestTalos
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Battleguard
+// Priest of Tempus
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestTempus
+Special Ability = class_PriestTempus
+Special Ability = class_baseName,$priestTempus
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Holy Champion
+// Priest of Torm
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestTorm
+Special Ability = class_PriestTorm
+Special Ability = class_baseName,$priestTorm
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Luckbringer
+// Priest of Tymora
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestTymora
+Special Ability = class_PriestTymora
+Special Ability = class_baseName,$priestTymora
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Holy Justice
+// Priest of Tyr
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestTyr
+Special Ability = class_PriestTyr
+Special Ability = class_baseName,$priestTyr
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Waveservant
+// Priest of Umberlee
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestUmberlee
+Special Ability = class_PriestUmberlee
+Special Ability = class_baseName,$priestUmberlee
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Goldeye
+// Priest of Waukeen
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestWaukeen
+Special Ability = class_PriestWaukeen
+Special Ability = class_baseName,$priestWaukeen
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Priests from Demihuman Deities
+\(BEGIN)
+name = Aetharnar
+// Priest of Abbathor
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestAbbathor
+Special Ability = class_PriestAbbathor
+Special Ability = class_baseName,$priestAbbathor
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Faernar
+// Priest of Berronar Truesilver
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestBerronar
+Special Ability = class_PriestBerronar
+Special Ability = class_baseName,$priestBerronar
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Alaghar
+// Priest of Clangeddin Silverbeard
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestClangeddin
+Special Ability = class_PriestClangeddin
+Special Ability = class_baseName,$priestClangeddin
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Alaghar/Fighter
+// Priest of Clangeddin Silverbeard
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestClangeddin
+baseclass = fighter
+Special Ability = class_PriestClangeddin
+Special Ability = class_baseName,$priestClangeddin$fighter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Xothar
+// Priest of Dugmaren Brightmantle
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestDugmaren
+Special Ability = class_PriestDugmaren
+Special Ability = class_baseName,$priestDugmaren
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Delvesonn
+// Priest of Dumathoin
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestDumathoin
+Special Ability = class_PriestDumathoin
+Special Ability = class_baseName,$priestDumathoin
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Barakor
+// Priest of Gorm Gulthyn
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestGorm
+Special Ability = class_PriestGorm
+Special Ability = class_baseName,$priestGorm
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Luckmaiden
+// Priest of Haela Brightaxe
+// female only
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestHaela
+Special Ability = class_PriestHaela
+Special Ability = class_baseName,$priestHaela
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fighter/Luckmaiden
+// Priest of Haela Brightaxe
+// female only
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = fighter
+baseclass = priestHaela
+Special Ability = class_PriestHaela
+Special Ability = class_baseName,$priestHaela$fighter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Thuldar
+// Priest of Laduguer
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestLaduguer
+Special Ability = class_PriestLaduguer
+Special Ability = class_baseName,$priestLaduguer
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Trailblazer
+// Priest of Marthammor Duin
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestMarthammor
+Special Ability = class_PriestMarthammor
+Special Ability = class_baseName,$priestMarthammor
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Sonnlinor
+// Preist of Moradin
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestMoradin
+Special Ability = class_PriestMoradin
+Special Ability = class_baseName,$priestMoradin
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Thalornar
+// Priest of Sharindlar
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSharindlar
+Special Ability = class_PriestSharindlar
+Special Ability = class_baseName,$priestSharindlar
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Vuddar
+// Priest of Thard Harr
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestThard
+Special Ability = class_PriestThard
+Special Ability = class_baseName,$priestThard
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Hurndar
+// Priest of Vergadain
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestVergadain
+Special Ability = class_PriestVergadain
+Special Ability = class_baseName,$priestVergadain
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Halcyon
+// Priest of Aerdrie Faerya
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestAerdrie
+Special Ability = class_PriestAerdrie
+Special Ability = class_baseName,$priestAerdrie
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Totem Sister
+// Priet of Angharradh
+// female only
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestAngharradh
+Special Ability = class_PriestAngharradh
+Special Ability = class_baseName,$priestAngharradh
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Feywarder
+// Priest of Corellon Larathian
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestCorellon
+Special Ability = class_PriestCorellon
+Special Ability = class_baseName,$priestCorellon
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Mischiefmaker
+// Priest of Erevan Illesere
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestErevan
+Special Ability = class_PriestErevan
+Special Ability = class_baseName,$priestErevan
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Mischiefmaker/Thief
+// Priest of Erevan Illesere
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestErevan
+baseclass = thief
+Special Ability = class_PriestErevan
+Special Ability = class_baseName,$priestErevan%thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Lone Wolf
+// Priest of Fenmarel Mestarine
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestFenmarel
+Special Ability = class_PriestFenmarel
+Special Ability = class_baseName,$priestFenmarel
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Goldheart
+// Priest of Hanali Celanil
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestHanali
+Special Ability = class_PriestHanali
+Special Ability = class_baseName,$priestHanali
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Chronologian
+// Priest of Labelas Enoreth
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestLabelas
+Special Ability = class_PriestLabelas
+Special Ability = class_baseName,$priestLabelas
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Starsinger
+// Priest of Sehanine Moonbow
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSehanine
+Special Ability = class_PriestSehanine
+Special Ability = class_baseName,$priestSehanine
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Dhaeraowathia
+// Priest of Shevarash
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestShevarash
+Special Ability = class_PriestShevarash
+Special Ability = class_baseName,$priestShevarash
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Dhaeraowathia/Fighter
+// Priest of Shevarash
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestShevarash
+baseclass = fighter
+Special Ability = class_PriestShevarash
+Special Ability = class_baseName,$priestShevarash$fighter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cleric/Ranger of Solonor Thelandira
+// Ranger of Solonor Thelandira
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = cleric
+baseclass = rangerSolonor
+Special Ability = class_RangerSolonor
+Special Ability = class_baseName,$cleric$rangerSolonor
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fastpaw
+// Priest of Baervan Wildwanderer
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestBaervan
+Special Ability = class_PriestBaervan
+Special Ability = class_baseName,$priestBaervan
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Hoodwinker
+// Priest of Baravar Cloakshadow
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestBaravar
+Special Ability = class_PriestBaravar
+Special Ability = class_baseName,$priestBaravar
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Earthblood
+// Priest of Callarduran Smoothhands
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestCallarduran
+Special Ability = class_PriestCallarduran
+Special Ability = class_baseName,$priestCallarduran
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Pyrosmith
+// Priest of Flandal Steelskin
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestFlandal
+Special Ability = class_PriestFlandal
+Special Ability = class_baseName,$priestFlandal
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Sternshield
+// Priest of Gaerdal Ironhand
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestGaerdal
+Special Ability = class_PriestGaerdal
+Special Ability = class_baseName,$priestGaerdal
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Glitterbright
+// Priest of Garl Glittergold
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestGarl
+Special Ability = class_PriestGarl
+Special Ability = class_baseName,$priestGarl
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Earth-friend
+// Priest of Segojan Earthcaller
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSegojan
+Special Ability = class_PriestSegojan
+Special Ability = class_baseName,$priestSefojan
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Bloodstalker
+// Priest of Urdlen
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestUrdlen
+Special Ability = class_PriestUrdlen
+Special Ability = class_baseName,$priestUrdlen
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Truesword
+// Priest of Arvoreen
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestArvoreen
+Special Ability = class_PriestArvoreen
+Special Ability = class_baseName,$priestArvoreen
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fighter/Truesword
+// Priest of Arvoreen
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = fighter
+baseclass = priestArvoreen
+Special Ability = class_PriestArvoreen
+Special Ability = class_baseName,$fighter$priestArvoreen
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Misadventurer
+// Priest of Brandobaris
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestBrandobaris
+Special Ability = class_PriestBrandobaris
+Special Ability = class_baseName,$priestBrandobaris
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Misadventurer/Thief
+// Priest of Brandobaris
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestBrandobaris
+baseclass = thief
+Special Ability = class_PriestBrandobaris
+Special Ability = class_baseName,$priestBrandobaris$thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Homesteader
+// Priest of Cyrrollalee
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestCyrrollalee
+Special Ability = class_PriestCyrrollalee
+Special Ability = class_baseName,$priestCyrrollalee
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Greenfoster
+// Priest of Sheela Peryroyl
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSheela
+Special Ability = class_PriestSheela
+Special Ability = class_baseName,$priestSheela
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Grimwarden
+// Priest of Urogalan
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestUrogalan
+Special Ability = class_PriestUrogalan
+Special Ability = class_baseName,$priestUrogalan
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Horn Guard
+// Priest of Yondalla
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestYondalla
+Special Ability = class_PriestYondalla
+Special Ability = class_baseName,$priestYondalla
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Specialty Priests from Powers & Pantheons
+\(BEGIN)
+name = Finder
+// Priest of Finder Wyvernspur
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestFinder
+Special Ability = class_PriestFinder
+Special Ability = class_baseName,$priestFinder
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Bloodreaver
+// Priest of Garagos
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestGaragos
+Special Ability = class_PriestGaragos
+Special Ability = class_baseName,$priestGaragos
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Malefactor
+// Priest of Gargauth
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestGargauth
+Special Ability = class_PriestGargauth
+Special Ability = class_baseName,$priestGargauth
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Doomscribe
+// Priest of Jergal
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestJergal
+Special Ability = class_PriestJergal
+Special Ability = class_baseName,$priestJergal
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Silvermaid
+// Priest of Lurue
+// female only
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestLurue
+Special Ability = class_PriestLurue
+Special Ability = class_baseName,$priestLurue
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Firemane
+// Priest of Nobanion
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestNobanion
+Special Ability = class_PriestNobanion
+Special Ability = class_baseName,$priestNobanion
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Holy Strategist
+// Priest of Red Knight
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestRed
+Special Ability = class_PriestRed
+Special Ability = class_baseName,$priestRed
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Sybulite
+// Priest of Savras
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSavras
+Special Ability = class_PriestSavras
+Special Ability = class_baseName,$priestSavras
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Semsate
+// Priest of Sharess
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSharess
+Special Ability = class_PriestSharess
+Special Ability = class_baseName,$priestSharess
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Highborn
+// Priest of Siamorphe
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestSiamorphe
+Special Ability = class_PriestSiamorphe
+Special Ability = class_baseName,$priestSiamorphe
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Nakarit
+// Priest of Ulutiu
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestUlutiu
+Special Ability = class_PriestUlutiu
+Special Ability = class_baseName,$priestUlutiu
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Wavetamer
+// Priest of Valkur
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestValkur
+Special Ability = class_PriestValkur
+Special Ability = class_baseName,$priestValjur
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Necrophant
+// Priest of Velsharoon
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = priestVelsharoon
+Special Ability = class_PriestVelsharoon
+Special Ability = class_baseName,$priestVelsharoon
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Specialty Druids
+\(BEGIN)
+name = Druid of Chauntea
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = druidChauntea
+Special Ability = class_DruidChauntea
+Special Ability = class_baseName,$druidChauntea
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid of Eldath
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = druidEldath
+Special Ability = class_DruidEldath
+Special Ability = class_baseName,$druidEldath
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid of Mielikki
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = druidMielikki
+Special Ability = class_DruidMielikki
+Special Ability = class_baseName,$druidMielikki
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid of Silvanus
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = druidSilvanus
+Special Ability = class_DruidSilvanus
+Special Ability = class_baseName,$ddruidSilvanus
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid of Rillfane Rallathil
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = druidRillfane
+Special Ability = class_DruidRillfane
+Special Ability = class_baseName,$druidRillfane
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Specialty Paladins
+\(BEGIN)
+name = Paladin of Helm
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = paladinHelm
+Special Ability = class_PaladinHelm
+Special Ability = class_baseName,$paladinHelm
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Paladin of Torm
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = paladinTorm
+Special Ability = class_PaladinTorm
+Special Ability = class_baseName,$paladinTorm
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Paladin of Siamorphe
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = paladinSiamorphe
+Special Ability = class_PaladinSiamorphe
+Special Ability = class_baseName,$paladinSiamorphe
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Specialty Rangers
+\(BEGIN)
+name = Ranger of Mielikki
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = rangerMielikki
+Special Ability = class_RangerMielikki
+Special Ability = class_baseName,$rangerMielikki
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Ranger of Shaundakul
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = rangerShaundakul
+Special Ability = class_RangerShaundakul
+Special Ability = class_baseName,$rangerShaundakul
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Ranger of Shevarus
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = rangerShevarus
+Special Ability = class_RangerShevarus
+Special Ability = class_baseName,$rangerShevarus
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Ranger of Solonor
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = rangerSolonor
+Special Ability = class_RangerSolonor
+Special Ability = class_baseName,$rangerSolonor
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+// Multi-class Combos
+\(BEGIN)
+name = Cleric/Fighter
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = cleric
+baseclass = fighter
+Special Ability = class_baseName,$cleric$fighter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cleric/Fighter/Mage
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = cleric
+baseclass = fighter
+baseclass = mage
+Special Ability = class_MageScribe,mage
+Special Ability = class_baseName,$cleric$fighter$mage
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cleric/Illusionist
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = cleric
+baseclass = illusionist
+Special Ability = class_MageScribe,cleric/illusionist
+Special Ability = class_baseName,$cleric$illusionist
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cleric/Mage
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = cleric
+baseclass = mage
+Special Ability = class_MageScribe,mage
+Special Ability = class_baseName,$cleric$mage
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cleric/Ranger
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = cleric
+baseclass = ranger
+Special Ability = class_baseName,$cleric$ranger
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cleric/Thief
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = cleric
+baseclass = thief
+Special Ability = class_Thief,$cleric$thief
+Special Ability = class_baseName,$cleric$thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid/Fighter
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = druid
+baseclass = fighter
+Special Ability = class_baseName,$druid$fighter
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid/Fighter/Mage
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = druid
+baseclass = fighter
+baseclass = mage
+Special Ability = class_MageScribe,mage
+Special Ability = class_baseName,$druid$fighter$mage
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid/Mage
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = druid
+baseclass = mage
+Special Ability = class_MageScribe,mage
+Special Ability = class_baseName,$druid$mage
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Druid/Ranger
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = druid
+baseclass = ranger
+Special Ability = class_baseName,$druid$ranger
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fighter/Illusionist
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = fighter
+baseclass = illusionist
+Special Ability = class_MageScribe,fighter/illusionist
+Special Ability = class_baseName,$fighter$illusionist
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fighter/Mage
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = fighter
+baseclass = mage
+Special Ability = class_MageScribe,mage
+Special Ability = class_baseName,$fighter$mage
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fighter/Mage/Thief
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = fighter
+baseclass = mage
+baseclass = thief
+Special Ability = class_MageScribe,Fighter/Mage/Thief
+Special Ability = class_Thief,Fighter/Mage/Thief
+Special Ability = class_baseName,$fighter$mage$thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Fighter/Thief
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,3,4,5,5,6,6,6,7,7
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 1D100
+Starting Equipment = 
+baseclass = fighter
+baseclass = thief
+Special Ability = class_NoSpells,$fighter$thief
+Special Ability = class_Thief,$fighter$thief
+Special Ability = class_baseName,$fighter$thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Illusionist/Thief
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = illusionist
+baseclass = thief
+Special Ability = class_MageScribe,$illusionist$thief
+Special Ability = class_Thief,$illusionist$thief
+Special Ability = class_baseName,$illusionist$thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Mage/Thief
+HitDiceLevelBonus = Constitution,0,0,-2,-1,-1,-1,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2
+HitDiceBaseclass = *Average*
+StrengthBonusDice = 
+Starting Equipment = 
+baseclass = mage
+baseclass = thief
+Special Ability = class_MageScribe,$mage$thief
+Special Ability = class_Thief,$mage$thief
+Special Ability = class_baseName,$$mage$thief
+// Special Ability = class_ClassSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = $$Help
+Special Ability = Date,"September 27, 2015"
+Special Ability = Version,"2.17"
+Special Ability = ToDo1,"add Crusader"
+Special Ability = ToDo2,"add Shaman"
+Special Ability = ToDo3,"add Mystic"
+Special Ability = ToDo4,"add Monk"
+\(END)
+

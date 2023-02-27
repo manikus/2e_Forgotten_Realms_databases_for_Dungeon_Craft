@@ -1,0 +1,38 @@
+[InvokeSpellOnTarget] = $VAR tgt; // target
+-$VAR atk; // attacker (spellcaster)
+-$VAR param;
+-$VAR cls; // target's level
+-$VAR cstr; // spellcaster's level
+-$VAR saved;
+-$VAR rndm;
+-$VAR time;
+-
+-tgt = $IndexOf($TargetContext());
+-atk = $IndexOf($AttackerContext());
+-param = $SA_PARAM_GET();
+-cstr = $GET_CHAR_Lvl(atk,param);
+-
+-$IF ($GET_MONSTERTYPE_SA(tgt,"IsImmuneIllusions") != "-?-?-"){$RETURN;};
+-$IF ($GET_MONSTERTYPE_SA(tgt,"monsterLevel") != "-?-?-"){cls = $GET_MONSTERTYPE_SA(tgt,"monsterLevel")}
+$ELSE {cls = $GetHighestBaseclassLevel(tgt)};
+-saved = $GET_COMBATANT_SA($TargetContext(),"savedCS");
+-$IF (saved != "-?-?-" && (cls ># cstr || cls ># 5)){$RETURN $DELETE_COMBATANT_SA($TargetContext(),"savedCS");}
+-$ELSE {$DELETE_COMBATANT_SA($TargetContext(),"savedCS");};
+-$IF (cstr >=# cls)
+-	{
+-		rndm = $RANDOM(7) +# 2;
+-		time = $GET_PARTY_TIME() +# rndm;
+-		$SET_CHARACTER_SA($TargetContext()"IsColorSleep",time);
+-	};
+-$IF (cstr +# 2 >= cls)
+-	{
+-		rndm = $RANDOM(4) +# 1;
+-		time = $GET_PARTY_TIME() +# rndm;
+-		$SET_CHARACTER_SA($TargetContext()"IsColorBlind",time);
+-	};
+-$ELSE
+-	{
+-		time = $GET_PARTY_TIME() +# 1;
+-		$SET_CHARACTER_SA($TargetContext()"IsColorStun",time);
+-	};
+

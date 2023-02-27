@@ -1,0 +1,25 @@
+\(BEGIN)
+name = classBardSpells
+[CanScribeOrWhatever] = $SET_HOOK_PARAM(5,"SCRIBE");
+-$SET_HOOK_PARAM(6,0);
+[KnowableSpells] = $RETURN "100";
+[KnowableSpellsMinMax] = $SET_HOOK_PARAM(7, intMin);
+-$SET_HOOK_PARAM(8, intMax);
+-$SET_HOOK_PARAM(9, "999999");
+[LearnSpells] = $RETURN "100";
+[LearnSpellsNum] = $VAR char;
+-$VAR INT;
+-$VAR spl;
+-char = $IndexOf($CharacterContext());
+-INT = $GET_CHAR_INT(char);
+-$IF (INT ># 18){spl = 99;};
+-$IF (INT ># 17){spl = 18;};
+-$IF (INT ># 16){spl = 14;};
+-$IF (INT ># 14){spl = 11;}
+-$ELSE {spl = 9;};
+-$SET_HOOK_PARAM(8,spl);
+-$SET_HOOK_PARAM(9,spl);
+-$RETURN "1";
+[ScribeOrWhatever] = $SET_HOOK_PARAM(5, "Scribe");
+\(END)
+

@@ -1,0 +1,125 @@
+// Potions scripts
+// To use, select Examine Event and add an Utilities Event with the
+// Event Trigger of Execute GPDL function and in GPDL_script button
+// paste the script that matches below
+
+// Potion
+$VAR char;
+$VAR rndm;
+char = $MyIndex();
+rndm = $RANDOM(4) +# $RANDOM(4) +# 4;
+
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion");
+$GIVE_CHAR_ITEM($Myself(),"Empty Bottle");
+
+$SET_CHAR_HITPOINTS(char, $GET_CHAR_HITPOINTS(char) +# rndm);
+$IF ($GET_CHAR_HITPOINTS(char) ># $GET_CHAR_MAXHITPOINTS(char))
+	{
+		$SET_CHAR_HITPOINTS(char,$GET_CHAR_MAXHITPOINTS(char));
+	};
+
+// Potion|1
+$VAR char;
+$VAR rndm;
+char = $MyIndex();
+rndm = $RANDOM(4) +# $RANDOM(4) +# 4;
+
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|1"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|1");
+$GIVE_CHAR_ITEM($Myself(),"Potion|1a");
+$SET_CHAR_HITPOINTS(char, $GET_CHAR_HITPOINTS(char) +# rndm);
+$IF ($GET_CHAR_HITPOINTS(char) ># $GET_CHAR_MAXHITPOINTS(char))
+	{
+		$SET_CHAR_HITPOINTS(char,$GET_CHAR_MAXHITPOINTS(char));
+	};
+
+// Potion|1a
+$VAR char;
+$VAR rndm;
+char = $MyIndex();
+rndm = $RANDOM(4) +# $RANDOM(4) +# 4;
+
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|1a"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|1a");
+$GIVE_CHAR_ITEM($Myself(),"Potion|1b");
+$SET_CHAR_HITPOINTS(char, $GET_CHAR_HITPOINTS(char) +# rndm);
+$IF ($GET_CHAR_HITPOINTS(char) ># $GET_CHAR_MAXHITPOINTS(char))
+	{
+		$SET_CHAR_HITPOINTS(char,$GET_CHAR_MAXHITPOINTS(char));
+	};
+
+// Potion|1b
+$VAR char;
+$VAR rndm;
+char = $MyIndex();
+rndm = $RANDOM(4) +# $RANDOM(4) +# 4;
+
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|1b"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|1b");
+$GIVE_CHAR_ITEM($Myself(),"Empty Bottle");
+$SET_CHAR_HITPOINTS(char, $GET_CHAR_HITPOINTS(char) +# rndm);
+$IF ($GET_CHAR_HITPOINTS(char) ># $GET_CHAR_MAXHITPOINTS(char))
+	{
+		$SET_CHAR_HITPOINTS(char,$GET_CHAR_MAXHITPOINTS(char));
+	};
+
+// Potion|2
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|2"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|2");
+$GIVE_CHAR_ITEM($Myself(),"Empty Bottle");
+
+$CastSpellOnTarget($Myself(),"itemPotionInvisibility");
+
+// Potion|3
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|3"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|3");
+$GIVE_CHAR_ITEM($Myself(),"Empty Bottle");
+
+$SET_CHAR_AGE($MyIndex(),$GET_CHAR_AGE($MyIndex()) +# 1);
+$CastSpellOnTarget($Myself(),"itemPotionSpeed");
+
+// Potion|4
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|4"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|4");
+$GIVE_CHAR_ITEM($Myself(),"Empty Bottle");
+
+$CastSpellOnTarget($Myself(),"itemPotionGiantStrength");
+
+// Potion|5
+$VAR tgt;
+tgt = $MyIndex();
+
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|5"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|5");
+$GIVE_CHAR_ITEM($Myself(),"Empty Bottle");
+
+$IF ($GET_CHARACTER_SA($Myself(), "IsPoisoned") == "-?-?-"){$RETURN;};
+$DELETE_CHARACTER_SA($Myself(),"IsPoisoned");
+$IF ($GET_CHAR_HITPOINTS(tgt) <=# 0)
+	{
+		$SET_CHAR_HITPOINTS(tgt, "1");
+		$SET_CHAR_STATUS(tgt, "0");
+	};
+
+// Potion|6
+$VAR me;
+$VAR age;
+$VAR rnd;
+$VAR result;
+me = $MyIndex();
+rnd = $RANDOM(12) +# 1;
+age = $GET_CHAR_AGE(me);
+result = age -# rnd;
+$IF ($GET_CHAR_Ready($Myself(), "WEAPON", 0) != "Potion|6"){$RETURN;};
+$TAKE_CHAR_ITEM($Myself(),"Potion|6");
+$GIVE_CHAR_ITEM($Myself(),"Empty Bottle");
+$IF (result <# 18)
+	{
+		$RETURN $SET_CHAR_AGE(me, 18);
+	}
+$ELSE
+	{
+		$RETURN $SET_CHAR_AGE(me, result);
+	};
+

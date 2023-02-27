@@ -1,0 +1,6 @@
+Faiths & Avatars				Crusader, Monk, Mystic, Shaman
+Legends & Lore					Ascetic, Pious Knight, Knight
+Tome of Magic					Elementalist, Wild Mage
+
+
+

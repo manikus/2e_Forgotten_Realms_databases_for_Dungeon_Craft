@@ -1,0 +1,68 @@
+\(BEGIN)
+name = Gnome Fighter
+icon file = icon_GnomeFighter.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 10
+armor class = 10
+movement rate = 6
+hit dice = 1.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 19
+magic resistance = 0
+size = small
+morale = 40
+experience point value = 1000
+Special Ability = IsPerson,gnome
+Special Ability = monsterLevel,1
+Special Ability = race_ShortSaveBonus,gnome
+Class = Fighter
+Race = Gnome
+form = mammal + none
+penalty = none
+immunity = none
+Misc Options = can be held/charmed + none
+item = Chain Mail
+item = Shield
+item = Short Sword
+attack = 6,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Gnome Warrior
+icon file = icon_GnomeWarrior.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 10
+armor class = 10
+movement rate = 6
+hit dice = 4.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 16
+magic resistance = 0
+size = small
+morale = 40
+experience point value = 4000
+Special Ability = IsPerson,gnome
+Special Ability = monsterLevel,4
+Special Ability = race_ShortSaveBonus,gnome
+Class = Fighter
+Race = Gnome
+form = mammal + none
+penalty = none
+immunity = none
+Misc Options = can be held/charmed + none
+item = Chain Mail
+item = Shield|1
+item = Short Sword|1
+attack = 6,1,0,attacks,
+Undead = none
+\(END)
+

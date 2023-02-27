@@ -1,0 +1,191 @@
+Level 2
+PHBR4 Complete Wizard's Handbook p129
+Choke (Necromancy, Conjuration/Summoning)
+Range: 30 yards
+Components: V, S, M
+Duration: 1 round/level
+Casting Time: 2
+Area of Effect: One creature
+Saving Throw: 1/2
+By means of choke, the caster causes a pair of ghostly hands to appear around the throat of a single victim. The victim must be a human, demihuman, or humanoid, and must be within 30 yards of the caster. The hands will choke and strangle the affected victim for the duration of the spell; each round, the victim suffers 1-4 hit points of damage from the choking hands. If the victim makes a successful saving throw, he suffers half-damage each round.
+Choke can be negated by dispel magic or a similar spell; the victim cannot wrench the ethereal hands away from his neck. The victim makes all attack rolls at a -2 penalty while affected by choke. The material component for this spell is a handkerchief or similarly-sized piece of cloth that has been tied in a knot.
+
+FR: A p46
+Cloak Undead
+(Necromancy)
+Range: 10 feet/level
+Components: V,S
+Duration: 1 round/level
+Casting Time: 2
+Area of Effect: 1 or more creatures in 15-foot radius
+Saving Throw: Neg.
+This spell renders undead creatures
+within its radius invisible both to the naked
+eye and to the detect undead spell.
+The undead remain invisible as long as
+they remain within 15 feet of the spells
+center. If they move beyond that radius or
+attack in any fashion, they immediately
+become visible. The detect invisible spell
+will reveal their presence, as will true seeing
+and similar devices. The spell can be
+cast on the caster, on an object, or on a
+willing subject.
+Cloaked undead cannot normally be
+turned, though if the priest can detect
+them, as above, he may turn them in the
+normal fashion. Cloaked undead cannot
+enter areas normally protected from undead,
+nor gain any other advantages.
+
+Level 3
+Forgotten Realms Adventures p49
+Mummy Touch
+(Necromancy)
+Range: Touch
+Components: V,S,M
+Duration: 1 round/level
+Casting Time: 3
+Area of Effect: Creature touched
+Saving Throw: Neg.
+Upon casting this spell, the wizard gains two abilities. First, he is immune to the rotting disease carried by mummies for the duration of the spell. He also is empowered with the ability to inflict this rotting disease on others by touch for the duration of the spell.
+Mummy rot causes the flesh of the victim to putrify and decay. This causes a loss of 2 points of Charisma per month and is fatal in 1-6 months if untreated. Mummy rot can be cured by cure disease and more powerful magics which duplicate cure disease. While under the effects of mummy rot, the victim cannot be healed using cure light wounds, cure serious wounds, or heal spells and normal healing takes place at 10% of the regular rate.
+The casters appearance does not change as a result of this new ability and no other abilities are altered or improved other than the two noted above. The mummy touch affects everyone the caster touches during the duration of the spell. The caster can choose to end the spell prematurely, but once ended, the abilities are lost.
+Undead are immune to the effects of mummy touch, as are other creatures who would not normally be affected by the attack of a mummy (such as iron golems or xorn). Mummy touch cannot be granted to another individual. The disease functions only by direct touchit cannot be used to poison food or drink. The caster can be damaged normally by mummies, but if slain will not rot. Those slain by the caster using mummy touch will not rot as well.
+The material components of this spell are a pinch of mummy dust and drop of blood.
+
+FR: A p50
+Paralyze
+(Necromancy)
+Range: Touch
+Components: V,S,M
+Duration: 1 round/level
+Casting Time: 3
+Area of Effect: Caster
+Saving Throw: None
+Upon casting this spell, a wizard gains the ability to paralyze those he touches for 2-8 rounds. Those touched must make a saving throw vs. spells to avoid the effect. If the saving throw is made, they suffer no ill effects from the paralyze spell. Creatures which are immune to paralysis, as well as undead and unliving creatures such as golems, cannot be affected by this spell. The caster must roll a successful attack roll in order to strike an opponent with the paralysis.
+The material component of this spell is a piece of ghoul flesh.
+
+level 5
+PHBR4 p139
+Mummy Rot (Necromancy)
+Range: Touch
+Components: V, S, M
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: One victim
+Saving Throw: Special
+This spell allows the caster to attack with a rotting touch similar to that of a mummy. If the caster touches a human, demihuman, or humanoid victim, the victim immediately loses 2-12 (2d6) hit points and is infected with a rotting disease which is fatal in 1-6 months. For each month the rot progresses, the victim permanently loses 2 points of Charisma. While infected, the victim recovers lost hit points at 10 percent of his normal rate.
+The rotting disease can be cured only with a cure disease spell; cure wounds has no effect. A regenerate spell will restore damage but will not otherwise affect the course of the disease. If a victim makes a successful saving throw, he is not infected, but he still suffers 2-12 hit points of damage.
+The material components for this spell are a piece of rotten fruit and a piece of a mummy’s cloth wrapping.
+
+level 6
+Ruins of Myth Drannor p53
+Heal Self (Necromancy)
+Range: 0
+Components: V, S, M
+Duration: Special
+Casting Time: 6
+Area of Effect: The caster
+Saving Throw: Special
+This healing spell requires as its material components two drops of water, a drop of blood, and a gemstone of not less than 100 gp value. The caster holds these in one hand, claps that hand to his body, and intones the spell. A saving throw vs. spell is must be made. If the throw fails, the caster is healed for 4d8 hit points of damage (but cannot gain "extra" hit points by this means). Also, any blindness, poison, weakness, or nausea, however caused, is banished from the caster's body.
+If the throw succeeds, the caster is healed of all damage to his body, including the full use of broken limbs and organs. All afflictions (including rot grub and other parasitic infestations, diseases such as mummy rot, and lycanthropy) are ended.
+In addition, the caster temporarily gains 1 point of strength, with the applicable bonuses (a being possessing 18 strength attains 19 strength, regardless of any percentile normally possessed). This augmentation lasts for 1 turn, plus 1 round/level. The healing effects of the spell, whether the saving throw succeeds or not, are permanent.
+
+level 8
+FR6 p47
+Regenerate (Necromantic)
+Level: 8 
+Components: V, S, M
+Range: Touch 
+Casting Time: 3 rounds
+Duration: Permanent
+Saving Throw: None
+Area of Effect: Creature touched
+Explanation/Description: This spell is
+like the 7th level clerical spell of the
+same name. The material component
+is a lizard that can naturally regrow
+its limbs, which must be slain as part
+of the spell.
+	Regenerate (Necrmancy)
+	Reversible
+	Sphere: Necromatic
+	Range: Touch
+	Components: V,S,M
+	Duration: Permanent
+    Casting Time: 3 rounds
+	Area of Effect: Creature touched
+	Saving Throw: None
+	When a regenerate spell is cast, body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multi-headed creatues), bones, and organs grow back. The process of regeneration requies but one round if the severed member(s) is (are) present and touching the creature, 2d4 turns otherwise. The creature must be living to receive the benefits of this spell. If the severed member is not present, or if the injury is older than one day per caster level, the recipient must roll a successful system shock check to survive the spell.
+	The revers, wither, causes the member or organ touched to cease functioning in one round, dropping off into dust in 2d4 turns. Creatures must be touched for the harmful effect to occur.
+	The material components of this spell are a prayer device and holy water (or unholy water for the reverse).
+
+PHBR4 p145
+Shadow Form (Necromancy)
+Range: 0
+Components: V, S, M
+Duration: 1 round/level
+Casting Time: 1 round
+Area of Effect: The caster
+Saving Throw: None
+By means of this spell, the caster temporarily changes himself into a shadow. The caster gains the movement rate, Armor Class, hit dice, and all abilities of a shadow. His chilling touch (requiring a normal attack roll) inflicts 2-5 (1d4+1) hit points of damage on his victims as well as draining one point of Strength. Lost Strength returns in 2-8 (2d4) turns after being touched. If a human or demihuman victim is reduced to 0 hit points or 0 Strength by the caster in shadow form, the victim has lost all of his life force and is immediately drawn into the Negative Material Plane where he will forever after exist as a shadow.
+All of the caster’s weapons and equipment stay with him, but he is unable to use them while in shadow form. He is also unable to cast spells while in shadow form, but he is immune to sleep, charm, and hold spells, and is unaffected by cold-based attacks. He is 90 percent undetectable in all but the brightest of surroundings. Unlike normal shadows, a wizard in shadow form cannot be turned by priests. At the end of the spell’s duration, there is a 5% chance that the caster will permanently remain as a shadow. Nothing short of a wish can return the caster to his normal form.
+The material components for this spell are the shroud from a corpse at least 100 years old and a black glass marble.
+
+level 9
+FR: A p65
+Master Undead
+(Necromancy)
+Range: 10 yards/level
+Components: V,S,M
+Duration: 2 rounds/level
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: Neg.
+This powerful spell allows the caster to
+control the actions of any type of undead
+as if they were intelligent creatures under
+the effect of a charm person spell. Undead
+so controlled can perform precise tasks
+for the caster.
+The caster can affect as many undead as
+he or she has experience levels. In cases of
+mixed undead, the weakest will be affected
+first, then those with more hit dice.
+All undead affected must be within a cubic
+area 50 feet on a side.
+Undead are permitted a saving throw
+vs. spells to avoid this spell. Liches and
+undead with 10 or more hit dice have a
+bonus of +4 to the saving throw to avoid
+the effects of the spell.
+Controlled undead are not the same as
+creatures under the effect of this
+enchantment/charm magic. The control
+will last until the spell duration ceases,
+then the undead are restored to their own
+(often nominal) control. Further, the
+caster does not need to know any common
+language with the undead to effect
+the control. And last, the undead can be
+ordered to perform actions which are selfdestructive
+and the caster can attack them
+without the spell being broken.
+The material component of this spell is
+a crushed diamond worth at least 500 gp,
+which is consumed in casting.
+
+FR6 p47
+Restoration (Necromantic)
+Level: 9
+Components: V, S, M
+Range: Touch 
+Casting Time: 3 rounds
+Duration: Permanent
+Saving Throw: None
+Area of Effect: Creature touched
+Explanation/Description: This spell is
+like the clerical 7th level spell of the
+same name, but its material component
+is a patch of wights skin.

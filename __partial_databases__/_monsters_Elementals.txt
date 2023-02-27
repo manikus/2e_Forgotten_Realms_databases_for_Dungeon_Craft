@@ -1,0 +1,526 @@
+// elementals
+
+\(BEGIN)
+name = Air Elemental
+icon file = icon_AirElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 36
+hit dice = 16.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 43
+experience point value = 11000
+Special Ability = monsterLevel,16
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 10,2,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Earth Elemental
+icon file = icon_EarthElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 6
+hit dice = 16.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 43
+experience point value = 10000
+Special Ability = monsterLevel,16
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 8,4,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Fire Elemental
+icon file = icon_FireElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 12
+hit dice = 16.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 43
+experience point value = 10000
+Special Ability = monsterLevel,16
+Special Ability = elementalImmuneFire
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 8,3,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Water Elemental
+icon file = icon_WaterElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 6
+hit dice = 16.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 43
+experience point value = 10000
+Special Ability = monsterLevel,16
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 6,5,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Lesser Air Elemental
+icon file = icon_LesserAirElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 36
+hit dice = 8.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 3000
+Special Ability = monsterLevel,8
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 10,2,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Lesser Earth Elemental
+icon file = icon_LesserEarthElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 6
+hit dice = 8.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 2000
+Special Ability = monsterLevel,8
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 8,4,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Lesser Fire Elemental
+icon file = icon_LesserFireElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 12
+hit dice = 8.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 2000
+Special Ability = monsterLevel,8
+Special Ability = elementalImmuneFire
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 8,3,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Lesser Water Elemental
+icon file = icon_LesserWaterElemental.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 6
+armor class = 2
+movement rate = 6
+hit dice = 8.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 2000
+Special Ability = monsterLevel,8
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 6,5,0,attacks,
+Undead = none
+\(END)
+
+// Elemental-kin
+
+\(BEGIN)
+name = Aerial Servant
+icon file = icon_AerialServant.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 3
+armor class = 3
+movement rate = 24
+hit dice = 16
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 5
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 9000
+Special Ability = monsterLevel,16
+Special Ability = monsterWeaponImmunity,1
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 8,4,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Fire Snake
+icon file = icon_FireSnake.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 3
+armor class = 6
+movement rate = 4
+hit dice = 2
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 19
+magic resistance = 0
+size = small
+morale = 27
+experience point value = 120
+Special Ability = monsterLevel,2
+Special Ability = elementalImmuneFire
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 4,1,0,attacks,monsterParalyxis
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Nereid
+icon file = icon_Nereid.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 12
+armor class = 10
+movement rate = 12
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 50
+size = medium
+morale = 27
+experience point value = 975
+Special Ability = monsterLevel,4
+Special Ability = monsterInvisible,yes
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 1,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Pech
+icon file = icon_Pech.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 12
+armor class = 3
+movement rate = 9
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 25
+size = small
+morale = 25
+experience point value = 1400
+Special Ability = monsterLevel,4
+Special Ability = monsterCombatantAlignment,good
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = Military Pick
+attack = 4,1,3,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Salamandar
+icon file = icon_Salamandar.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 14
+armor class = 5
+movement rate = 9
+hit dice = 7
+treat HD as hit points = yes
+hit dice bonus = 7
+THAC0 = 13
+magic resistance = 0
+size = medium
+morale = 33
+experience point value = 2000
+Special Ability = monsterLevel,8
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = elementalImmuneFire
+Special Ability = monsterImmuneCharm
+Special Ability = monsterImmuneHold
+Special Ability = monsterImmuneSleep
+Special Ability = monsterWeaponImmunity,1
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 6,2,0,attacks,monsterHeat
+attack = 6,1,0,attacks,monsterHeat
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Sandling
+icon file = icon_Sandling.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 0
+armor class = 3
+movement rate = 12
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 0
+size = large
+morale = 17
+experience point value = 420
+Special Ability = monsterLevel,4
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 8,2,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Sylph
+icon file = icon_Sylph.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 16
+armor class = 9
+movement rate = 36
+hit dice = 3
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 50
+size = medium
+morale = 35
+experience point value = 2000
+Special Ability = monsterLevel,3
+Special Ability = monsterInvisible,yes
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 1,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Water Weird
+icon file = icon_WaterWeird.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathLarge.wav
+intelligence = 12
+armor class = 4
+movement rate = 12
+hit dice = 3
+treat HD as hit points = yes
+hit dice bonus = 3
+THAC0 = 15
+magic resistance = 0
+size = large
+morale = 33
+experience point value = 420
+Special Ability = monsterLevel,6
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = elementalResistantFire
+Special Ability = elementalSlowingCold
+Special Ability = monsterWeaponImmunityWater,weird
+Special Ability = monsterSummoned,inner
+Class = Fighter
+Race = Elemental
+form = large + none
+penalty = none
+immunity = poison + death magic + vorpal weapon + none
+Misc Options = none
+item = none
+attack = 1,1,0,attacks,monsterDrowning
+Undead = none
+\(END)
+

@@ -1,0 +1,559 @@
+// Baatezu
+// half damage from: cold, gas
+// no damage from: fire, iron weapons, poison
+// once per round: charm person, know alignment, infravision, suggestion, teleport without error
+
+\(BEGIN)
+name = Amnizu
+icon file = icon_Amnizu.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 16
+armor class = -1
+movement rate = 6
+hit dice = 9
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 11
+magic resistance = 0
+size = medium
+morale = 35
+experience point value = 32500
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,9
+Special Ability = monsterResistantGas
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,lower
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = 
+attack = 2,1,0,hits,
+attack = 2,1,0,hits,
+Undead = Special
+\(END)
+// Fireball x3, imprisonment x1, gate 2-20 abishai (50%) x1, gate 1-8 erinyes (30%) x1, 
+
+\(BEGIN)
+name = Barbazu
+icon file = icon_Barbazu.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 6
+armor class = 3
+movement rate = 15
+hit dice = 6
+treat HD as hit points = yes
+hit dice bonus = 6
+THAC0 = 13
+magic resistance = 30
+size = medium
+morale = 30
+experience point value = 23500
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,7
+Special Ability = monsterResistantGas
+Special Ability = monsterSummoned,lower
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 2,1,0,hits,
+attack = 2,1,0,hits,
+Undead = Special
+\(END)
+// command, fear touch, gate 2-12 abishai (50%) x1, gate 1-6 barbazu (35%) x1
+
+\(BEGIN)
+name = Black Abishai
+icon file = icon_BlackAbishai.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 9
+armor class = 5
+movement rate = 9
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 7
+THAC0 = 17
+magic resistance = 30
+size = large
+morale = 25
+experience point value = 21500
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monserSummoned,lower
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,5
+Special Ability = monsterResistantGas
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,hits,
+attack = 4,1,0,hits,
+attack = 4,1,1,bites,
+Undead = Special
+\(END)
+// pyrotechnics, gate 2-12 lemures (60%) x1, gae 1-3 abishai (30%) x1
+
+\(BEGIN)
+name = Cornugon
+icon file = icon_Cornugon.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 16
+armor class = -2
+movement rate = 9
+hit dice = 10
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 11
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 36500
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,10
+Special Ability = monsterRegeneration,2
+Special Ability = monsterResistantGas
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,lower
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,hits,
+attack = 4,1,0,hits,
+attack = 4,1,1,attacks,
+attack = 3,1,0,attacks,
+Undead = Special
+\(END)
+// lightning bolt x3, detect magic, ESP, gate 2-12 barbazu (50%) x1, gate 2-16 abishai (35%) x1, gate 1-3 cornugon (20%) x1
+
+\(BEGIN)
+name = Erinyes
+icon file = icon_Erinyes.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 14
+armor class = 2
+movement rate = 12
+hit dice = 6
+treat HD as hit points = yes
+hit dice bonus = 3
+THAC0 = 13
+magic resistance = 30
+size = medium
+morale = 30
+experience point value = 29500
+Special Ability = monsterLevel,7
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterWeaponImmunity,1
+Special Ability = monsterSummoned,lower
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterImmunePoison
+Special Ability = monsterResistantGas
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,attacks,
+Undead = Special
+\(END)
+// charm gaze 6, detect invisibility, invisibility, gate 1-8 spinagons (50%) x1, 1-4 barbazu (35%) x1
+
+\(BEGIN)
+name = Gelugon
+icon file = icon_Gelugon.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 18
+armor class = -5
+movement rate = 15
+hit dice = 11
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 9
+magic resistance = 50
+size = large
+morale = 40
+experience point value = 39500
+Special Ability = elementalImmuneCold
+Special Ability = elementalResistantFire
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterDetectInvisibility
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,11
+Special Ability = monsterRegeneration,2
+Special Ability = monsterResistantGas
+Special Ability = monsterWeaponImmunity,2
+Special Ability = monsterSummoned,lower
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,hits,
+attack = 4,1,0,hits,
+attack = 4,2,0,attacks,
+attack = 4,3,0,attacks,
+Undead = Special
+\(END)
+// detect magic, fly, gate 2-12 barbazu (50%) x1, gate 2-8 osyluth (35%) x1, gate 1-2 gelugon (20%) x1
+
+\(BEGIN)
+name = Green Abishai
+icon file = icon_GreenAbishai.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 9
+armor class = 3
+movement rate = 9
+hit dice = 5
+treat HD as hit points = yes
+hit dice bonus = 2
+THAC0 = 15
+magic resistance = 30
+size = large
+morale = 25
+experience point value = 23500
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,6
+Special Ability = monsterResistantGas
+Special Ability = monsterSummoned,lower
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,hits,
+attack = 4,1,0,hits,
+attack = 4,1,1,bites,
+Undead = Special
+\(END)
+// pyrotechnics, gate 2-12 lemures (60%) x1, gae 1-3 abishai (30%) x1
+
+\(BEGIN)
+name = Hamatula
+icon file = icon_Hamatula.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 12
+armor class = 1
+movement rate = 12
+hit dice = 7
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 30
+size = medium
+morale = 50
+experience point value = 23000
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,7
+Special Ability = monsterResistantGas
+Special Ability = monsterSummoned,lower
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,2,0,hits,
+attack = 4,2,0,hits,
+attack = 4,3,0,bites,
+Undead = Special
+\(END)
+// hold person, pyrotechnics, 2-12 abishai (50%) x1, 1-4 hamatula (35%) x1
+
+\(BEGIN)
+name = Lemure
+icon file = icon_Lemure.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 3
+armor class = 7
+movement rate = 3
+hit dice = 2
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 19
+magic resistance = 0
+size = medium
+morale = 50
+experience point value = 120
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmuneCharm
+Special Ability = monsterImmuneIllusions
+Special Ability = monsterLevel,2
+Special Ability = monsterRegeneration,1
+Special Ability = monsterSummoned,lower
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 3,1,0,attacks,
+Undead = Special
+\(END)
+
+\(BEGIN)
+name = Nupperibo
+icon file = icon_Nupperibo.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 0
+armor class = 9
+movement rate = 6
+hit dice = 1.000000
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 19
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 65
+Special Ability = monsterLevel,1
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterRegeneration,1
+Special Ability = monsterSummoned,lower
+Special Ability = monsterImmuneCharm
+Special Ability = monsterImmuneIllusions
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 2,1,0,hits,
+attack = 2,1,0,hits,
+Undead = Special
+\(END)
+
+\(BEGIN)
+name = Osyluth
+icon file = icon_Osyluth.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 12
+armor class = 3
+movement rate = 12
+hit dice = 5
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 15
+magic resistance = 30
+size = large
+morale = 30
+experience point value = 24000
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,5
+Special Ability = monsterOsyluthFear
+Special Ability = monsterResistantGas
+Special Ability = monsterSummoned,lower
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,hits,
+attack = 4,1,0,hits,
+attack = 8,1,0,attacks,
+attack = 4,3,0,attacks,
+Undead = Special
+\(END)
+// fly, invisibility, gate 1-100 nupperibo (50%) x1, gate 1-2 osyluth (35%) x1
+
+\(BEGIN)
+name = Pit Fiend
+icon file = icon_PitFiend.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 18
+armor class = -5
+movement rate = 15
+hit dice = 12
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 7
+magic resistance = 50
+size = large
+morale = 50
+experience point value = 57500
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,12
+Special Ability = monsterPitFiendFearAura,2
+Special Ability = monsterRegeneration,2
+Special Ability = monsterRegeneration,3
+Special Ability = monsterResistantGas
+Special Ability = monsterSummoned,lower
+Special Ability = monsterWeaponImmunity,3
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,attacks,
+attack = 4,1,0,attacks,
+attack = 6,1,0,attacks,
+attack = 6,1,0,attacks,
+attack = 4,2,0,attacks,
+attack = 6,2,0,attacks,
+Undead = Special
+\(END)
+// detect magic, detect invisibility, fireball, hold person, improved invisibility, pyrotechnics, gate 2 lesser baatezu (100%), gate 1 greater baatezu (100%), symbol of pain x1, 
+
+\(BEGIN)
+name = Red Abishai
+icon file = icon_RedAbishai.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 9
+armor class = 1
+movement rate = 9
+hit dice = 6
+treat HD as hit points = yes
+hit dice bonus = 3
+THAC0 = 13
+magic resistance = 30
+size = medium
+morale = 30
+experience point value = 25500
+Special Ability = elementalImmuneFire
+Special Ability = elementalResistantCold
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterImmunePoison
+Special Ability = monsterLevel,8
+Special Ability = monsterResistantGas
+Special Ability = monsterSummoned,lower
+Special Ability = monsterWeaponImmunity,1
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,hits,
+attack = 4,1,0,hits,
+attack = 4,1,1,bites,
+Undead = Special
+\(END)
+// pyrotechnics, gate 2-12 lemures (60%) x1, gae 1-3 abishai (30%) x1
+
+\(BEGIN)
+name = Spinagon
+icon file = icon_Spinagon.png,0,2,48,48,0,1,2
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_MonsterMoveStep.wav
+death sound = sound_MonsterDeathMedium.wav
+intelligence = 12
+armor class = 4
+movement rate = 18
+hit dice = 3
+treat HD as hit points = yes
+hit dice bonus = 3
+THAC0 = 17
+magic resistance = 15
+size = small
+morale = 25
+experience point value = 7500
+Special Ability = monsterLevel,4
+Special Ability = monsterCombatantAlignment,evil
+Special Ability = monsterSummoned,lower
+Class = Fighter
+Race = Baatezu
+form = none
+penalty = none
+immunity = death magic + confusion + none
+Misc Options = none
+item = none
+attack = 4,1,0,hits,
+attack = 4,1,0,hits,
+attack = 4,1,0,attacks,
+Undead = Special
+\(END)
+// stinking cloud, gate 1-3 spinagons (35%) x1

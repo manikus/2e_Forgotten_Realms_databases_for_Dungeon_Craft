@@ -1,0 +1,20 @@
+// FOOTER
+function FooterInfo() {
+	var message = "<p><center><span class='footnote'><em>Unless otherwise noted, all contents &copy;1995&#151;2016 Charles W. Plemons III.</em><br><a href='http://people.wku.edu/charles.plemons/'><i class='fa fa-home'></i> Home</a></span></center></p>"
+	document.write(message)
+	document.close
+}
+
+// MENU
+function MenuInfo() {
+	var message = "<p><center><table cellspacing='1' cellpadding='1' width='80%'><tr><th class='main' width='25%'><a href='http://people.wku.edu/charles.plemons/about.html' class='navigation'>About</a></th><th class='main' width='25%'><a href='http://people.wku.edu/charles.plemons/rpg_campaigns.html' class='navigation'>RPG Campaigns</a></th><th class='main' width='25%'><a href='http://people.wku.edu/charles.plemons/rpg_products.html' class='navigation'>RPG Products</a></th><th class='main' width='25%'><a href='http://people.wku.edu/charles.plemons/rpg_resources.html' class='navigation'>RPG Resources</a></th></tr></table></center></p>"
+	document.write(message)
+	document.close
+}
+
+// SOCIAL MEDIA MENU
+function SocialInfo() {
+	var message = "<p><center><span class='fa-stack fa-lg'><a href='https://www.facebook.com/charles.plemons/' target='_new'><i class='fa fa-square-o fa-stack-2x'></i><i class='fa fa-facebook fa-stack-1x'></i></a></span><span class='fa-stack fa-lg'><a href='https://twitter.com/dorktopia_ky' target='_new'><i class='fa fa-square-o fa-stack-2x'></i><i class='fa fa-twitter fa-stack-1x'></i></a></span><span class='fa-stack fa-lg'><a href='http://charles.plemons.blog.wku.edu/?utm_campaign=peopleserver&utm_medium=website&utm_source=mainpage' target='_new'><i class='fa fa-square-o fa-stack-2x'></i><i class='fa fa-rss fa-stack-1x'></i></a></span></center></p>"
+	document.write(message)
+	document.close
+}

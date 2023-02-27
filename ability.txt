@@ -1,0 +1,42 @@
+// Ability database file
+// The above line must appear exactly as shown."// Ability database file"
+// FR 2e conversion
+
+\(BEGIN)
+name = Strength
+Abbreviation = STR
+Roll = 3 |< 3d6 |< 3d6 + (Race_Halfling*-1) >| 18
+\(END)
+
+\(BEGIN)
+name = Intelligence
+Abbreviation = INT
+Roll = 3 |< 3d6 |< 3d6 >| 18
+\(END)
+
+\(BEGIN)
+name = Wisdom
+Abbreviation = WIS
+Roll = 3 |< 3d6 |< 3d6 >| 18
+\(END)
+
+\(BEGIN)
+name = Dexterity
+Abbreviation = DEX
+Roll = 3 |< 3d6 |< 3d6 + ("Race_Gold Elf"*1) + ("Race_Moon Elf"*1) + ("Race_Wild Elf"*1) + (Race_Halfling*-1) >| 19
+\(END)
+
+\(BEGIN)
+name = Constitution
+Abbreviation = CON
+Roll = 3 |< 3d6 |< 3d6 + ("Race_Gold Dwarf"*1) + ("Race_Shield Dwarf"*1) + ("Race_Wild Dwarf"*1) + ("Race_Gold Elf"*-1) + ("Race_Moon Elf"*-1) + ("Race_Wild Elf"*-1) >| 19
+\(END)
+
+\(BEGIN)
+name = Charisma
+Abbreviation = CHA
+Roll = 3 |< 3d6 |< 3d6 + ("Race_Gold Dwarf"*-1) + ("Race_Shield Dwarf"*-1) + ("Race_Wild Dwarf"*-1) >| 18
+\(END)
+
+// Septermber 27, 2015
+// version 2.17

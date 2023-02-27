@@ -1,0 +1,55 @@
+Possible spells...
+Priest:
+	Level 1:
+Invisibility to Undead
+Light
+	Level 2:
+Flame Blade
+Trip
+	Level 3:
+Call Lightning
+Continual Light
+Pyrotechnics
+Remove Paralysis
+Summon Insects
+Water Breathing***
+	Level 4:
+Tongues***
+	Level 5:
+Animal Growth***
+Insect Plauge
+	Level 6:
+Conjure Animals
+Word of Recall
+	Level 7:
+Fire Storm
+Gate
+Holy Word
+Regenerate
+
+Wizard spells
+	Level 1:
+Armor
+Color Spray
+Hypnotism
+Idenify
+Light
+	Level 2:
+Blur
+Continual Light
+Darkness 15' radius
+Flaming Sphere
+Melf's Acid Arrow
+Summon Swarm
+Wizard Lock***	
+	Level 3:
+Flame Arrow
+Melf's Minute Meteors
+Water Breathing***	
+	Level 4;
+	Level 5;
+	Level 6
+	Level 7
+	Level 8
+	Level 9
+	

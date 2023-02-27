@@ -1,0 +1,1285 @@
+AD&D 2e Wizard Spells
+***** Level 1 *****
+Affect Normal Fires
+Alarm
+Amplify (PftM)
+Animate Dead Animals (CBoN)
+Armor
+Audible Glamer
+Aura Fire (FR6)
+Avoid Planar Effects (PH)
+Balance (Dra#166)
+Blacksteel (7S)
+Blackthorns (7S)
+Burning Hands
+Cantrip
+Catapult (FRAd,FR4,PftM)
+Change Self
+Charm Person
+Chill (Dra #229)
+Chill Touch
+Chromatic Orb (PHBR4)
+Circle (FR6,S)
+Claws of Velsharoon (P&P)
+Cling (Menzo)
+Cloud Messenger (Dra#226)
+Color (PftM)
+Color Spray
+Command Undead (CotD)
+Compass (Dra#220)
+Comprehend Languages
+Conjure Spell Component (ToM)
+Copy (PHBR4)
+Corpse Link (CBoN)
+Corpse Visage (PHBR4)
+Corpselight (FRAd,PftM)
+Craft Divining Rod (Dra #229)
+Dancing Fire (RoMD)
+Dancing Lights
+Deflection (RoMD)
+Deny Cold (FR6)
+Detect Disease (PHBR4)
+Detect Life (RoMD)
+Detect Magic
+Detect Undead
+Detho's Delirium (FR4,FR6,FRQ1,S,PftM)
+Distort (PftM)
+Divining Rod (PHBR4)
+Enlarge
+Enlarge Skeleton (CotD)
+Erase
+Erdlu Claw (Dra#197)
+Exterminate (CBoN)
+Feather Fall
+Find Familiar
+Fire Burst (ToM)
+Fire Quill (7S)
+Fist of Stone(ToM)
+Flamespin (7S)
+Fogbolt (RoMD)
+Friends
+Frost Fingers (PftM)
+Gauntlet (7S)
+Gaze Reflection
+Ghostharp (7S)
+Giant Fur (Dra#197)
+Grease
+Hold Portal
+Hornung's Guess* (ToM)
+Hypnotism
+Identify
+Immunity to Adherence (Menzo)
+Insulation (FR16)
+Jump
+Know Faction (PH)
+Know School (FRAd,S)
+Laeral's Dancing Whip (7S)
+Lasting Breath (ToM)
+Light
+Liquid Orb (Dra#187)
+Little Bird (Dra#220)
+Locate Remains (CBoN)
+Magic Missile
+March (Dra#220)
+Masque Mask (Menzo)
+Mending
+Message
+Metamorphose Liquids (ToM)
+Moonglow (7S)
+Mount
+Murdock's Feathery Flyer (ToM)
+Nahal's Reckless Dweomer* (ToM)
+Normal Aura (Dra#203)
+Nybor's Gentle Reminder (S)
+Nystul's Magical Aura
+Odeen's Magic Tailor (Dra#124)
+Patternweave* (ToM)
+Petrification (Dra#197)
+Phantasmal Force
+Phantasmal Pose (Dra #229)
+Portal Beacon (PH)
+Protection from Evil
+Protection from Hunger and Thirst (PHBR4)
+Read Magic
+Scatterspray (FRAd,PftM)
+Shield
+Shield Flame (Dra #229)
+Shocking Grasp
+Sleep
+Snilloc's Snowball (FRAd,PftM)
+Spectral Ears (CotD)
+Spectral Voice (CBoN)
+Spider Climb
+Spidereyes (FOR2,FR4,PftM)
+Spook
+Storm's Frozen Moment (7S)
+Summon Undead (FR6)
+Tasso's Shriek (PftM,Dra#181)
+Taunt
+Tenser's Floating Disc
+Tipple (Dra#220)
+Troll Repellent (EE)
+Turtle Soup (7S)
+Undead Servant (CotD)
+Unseen Servant
+Ventriloquism
+Waking Light of Dawn (Dra#226)
+Wall of Fog
+Wardaway (7S)
+Wizard Mark
+Zala's Icejacket (Dra#221)
+
+***** Level 2 *****
+Agannazar's Scorcher (FRAd,PftM)
+Alter Self
+Alustriel's Banner (7S)
+Alustriel's Fang (7S)
+Animate Skeletons (CotD)
+Attract Ghoul (CotD)
+Become Bones (CotD)
+Belsham's Mace (Dra#211)
+Bendal's Swoop (7S)
+Bind
+Bladeleap (7S)
+Bladethirst (FRAd,PftM)
+Blastbones (Dra#188)
+Blindness
+Bloodbridge (Dra#220)
+Bloodglass (Dra#196)
+Blur
+Boneiron (Dra#197)
+Bonewood (Dra#197)
+Breath of Bewilderment (7S)
+Camouflage (PHBR8)
+Chaos Shield* (ToM)
+Charge (Dra#203)
+Choke (PHBR4)
+Circle Dance (Menzo,FR4,PftM)
+Circle of Flame (7S)
+Cloak from Undead (FRAd,PftM)
+Cloak Undead (FRAd,PftM)
+Combust (FR6)
+Compose Mind (Dra#221)
+Continual Light
+Corruption (RS1)
+Create Enchanted Tattoo (S)
+Create Water (RoU2)
+Curse of the Grinning Skull (Dra#185)
+Dark Mirror (PftM,Dra#181)
+Darkness, 15' Radius
+Darsson's Cooling Breeze (FR16,PftM)
+Darsson's Fiery Cube (FR16,PftM)
+Dazzle (S)
+Deafness
+Death Armor (CotD)
+Death Recall (PHBR4)
+Decastave (FRAd,FR4,PftM)
+Deeppockets
+Delayed Light (RoMD)
+Deny Fire (FR6)
+Detect Evil
+Detect Invisibility
+Detect Life (PHBR4)
+Detect Poison (FR6)
+Detect Psionics (DS,PftM)
+Detect Thought (RoMD)
+Drenal's Annoying Poke (Dra#210)
+Drenal's Distraction (Dra#210)
+Drenal's Dry Ink (Dra#210)
+Drenal's Stone Flame (Dra#210)
+Embalm (CBoN)
+Enter Dream (Dra#221)
+ESP
+Falling Wall (Dra#211)
+Familiar Enhancer I (Dra#181)
+Fang Fist (RoMD)
+Filter (PHBR4)
+Find Familiar - Necromancy (CotD)
+Fireproof (Dra#220)
+Firestaff (PftM,Dra#181)
+Flame Dagger (FR6)
+Flaming Sphere
+Flash (PftM)
+Flying Fist (FRAd,FR4,PftM)
+Fog Cloud
+Fools' Copper (Dra #229)
+Fools' Gold
+Forcewave (PftM,Dra#181)
+Forget
+Frostfire (Dra#200)
+Gate Ward (PH)
+Ghost Blade (7S)
+Ghost Pipes (FRAd,FR4,PftM)
+Ghoul Touch (PHBR4)
+Glitterdust
+Greater Detect Undead (RS1)
+Hornung's Baneful Deflector* (ToM)
+Hypnotic Pattern
+Ice Knife (PHBR4,OA)
+Immunity to Spider Venom (Menzo)
+Improved Chill Touch (RS1)
+Improved Phantasmal Force
+Improved Spider Climb (Menzo)
+Infratorch (RoU2)
+Insatiable Thirst (ToM)
+Invisibilty
+Irritation
+Knock
+Know Alignment
+Laeral's Cutting Hand (7S)
+Leomund's Trap
+Levitate
+Lightning Strike (Dra#203)
+Living Link (CBoN)
+Locate Object
+Magic Missile Reflection (7S)
+Magic Mouth
+Maximilian's Earthen Grasp (ToM)
+Melf's Acid Arrow
+Mind Mantle (RoMD)
+Mirror Image
+Misdirection
+Mist Magic (FA1)
+Mouse (Dra#220)
+Nahal's Nonsensical Nullifier* (ToM)
+Nystul's Magical Mask (Dra #229)
+Odeen's Magic Cloud (Dra#124)
+Odeen's Sounding Stick (Dra#124)
+Past Life (ToM)
+Poisonstar (RoMD)
+Portal Alarm (PH)
+Portrait (PftM)
+Power Word, Sleep (FR6)
+Predict Weather (FR6)
+Preservation (S)
+Protection from Birds (FR16)
+Protection from Cantrips
+Protection from Deathbane (CotD)
+Protection from Normal Weapons (FR6)
+Protection from Paralysis (ToM)
+Protection from Plants, 10' Radius (FR6)
+Protection from Poison (FR6,S)
+Protection from Prime (PH)
+Protection from Specific Lycanthropes, 10' Radius (FR6)
+Pyrotechnics
+Quimby's Enchanting Gourmet (FRAd,FR4,PftM)
+Ray of Enfeeblement
+Ray of Ondovir (FR4,FRQ1,PftM)
+Resist Turning (CotD)
+Ride the Wind (ToM)
+Rope Trick
+Safe Fall (PftM)
+Scare
+Seeking (PHBR8)
+Sense Shifting (ToM)
+Shadow Bolt (Dra#200)
+Shark Bolt (Dra#187)
+Shatter
+Sinister Cantrip (RS1)
+Skeletal Hands (CBoN)
+Skyhook (FOR2,PftM)
+Slowspell (Dra#200)
+Slumberward (PftM,Dra#181)
+Snilloc's Snowball Swarm (FRAd,PftM)
+Snow Tread (Dra #229)
+Spectral Eyes (CotD)
+Spectral Hand
+Speed (Dra#220)
+Speedmount (EoE)
+Spelltouch (Dra#200)
+Spider Gout (Dra#184)
+Stinking Cloud
+Stone Sleep (Dra#187)
+Strahd's Baneful Attractor (Rav)
+Strength
+Summon Swarm
+Tasha's Uncontrollable Hideous Laughter
+Threestones (7S)
+Thundaerl's Universal Taster (Dra#185)
+Toothed Tentacle (RoMD)
+Train Vegetation (CotD)
+Undead Mount (FRAd,PftM)
+Venom Bite (Dra#184)
+Vocalize (FRAd,PHBR4,PftM)
+Warp Sense (PS,PH)
+Web
+Whirling Blade (RoU)
+Whispering Wind
+Wings (7S)
+Wizard Lock
+Words of Fire (7S)
+Write (PftM)
+Zala's Lifeforce Guardian (Dra#221)
+
+Level 3
+Acid Lash (7S)
+Acidic Blast (HBW,PH)
+Airbolt (Dra#139)
+Alacrity (ToM)
+Alamir's Fundamental Breakdown (ToM)
+Alternate Reality* (ToM)
+Animate Zombies (CotD)
+Arachnophobia (Dra#184)
+Assist (FR6)
+Augment Undead (Rav)
+Augmentation I (ToM)
+Backblast (RoMD)
+Battlecurse (Dra#211)
+Blacklight (FRAd,FR4,PftM)
+Blink
+Bone Club (PHBR4)
+Bone Dance (CBoN)
+Bone Knit (Dra#167)
+Breathe Smoke, Dust, or Ash (PH)
+Call Undead (FA1)
+Calm Wind (PH)
+Chant (FR6)
+Charm Undead (FR6)
+Charmthwart (CotD)
+Clairaudience
+Clairvoyance
+Cloak of Adeamozs (7S)
+Cloak of Insanity (Menzo)
+Dark Wings (FOR2)
+Darksense (Dra#166)
+Death Sight (RS1)
+Delay Death (PHBR4)
+Delude
+Depth Perception (Dra#225)
+Detect Charm (FR6)
+Dire Charm (FRAd,FR4,PftM)
+Dispel Magic
+Dispel Silence (FRAd,PftM)
+Distract (Dra#226)
+Double Spell (Dra#188)
+Drenal's Amok Needles (Dra#210)
+Drenal's Eyesore (Dra#210)
+Drenal's Sound Barrier (Dra#210)
+Dweomer Vortex (RoMD)
+Elminster's Multiple Mouths (7S)
+Erdlu Hide (Dra#197)
+Explosive Runes
+False Face (CBoN)
+Familiar Enhancer II (Dra#181)
+Far Reaching I (ToM)
+Feign Death
+Find Companion (Dra#228)
+Find Traps (FR6)
+Fire Lance (S)
+Fireball
+Fireflow* (ToM)
+Flame Arrow
+Fly
+Fool's Speech* (ToM)
+Freezefire (Dra #229)
+Gate Seal (PH)
+Ghastly Hands (CotD)
+Ghost Armor (FRAd,PftM)
+Grease Slick (RoU2)
+Ground Fog (Rav)
+Gust of Wind
+Hand of Darkness (FOR2)
+Haste
+Healing Dream (Dra#221)
+Hold Person
+Hold Undead
+Hold Vapor (FRAd,PftM)
+Hover (FR4,PftM)
+Hovering Skull (PHBR4)
+Ice Claws (Dra #229)
+Icelance (FRAd,FR4,PftM)
+Illusionary Script
+Improved Mind Mantle (RoMD)
+Infravision
+Invisible Mail (PHBR4)
+Invisibility, 10' Radius
+Iron Mind (PHBR4)
+Ironwood (Dra#220)
+Item
+Jalartan's Miraculum (7S)
+Khelben's Suspended Silence (RoU)
+Laeral's Dancing Dweomer (7S,PftM)
+Laeral's Raging Griffon (7S)
+Leomund's Tiny Hut
+Lesser Rhabdomancy (Dra #229)
+Lesson Gravity (PftM)
+Lightning Bolt
+Lightning Reflection (7S)
+Lorloveim's Creeping Shadow (ToM)
+Mailed Might (FR4,PftM)
+Maladweomer (CotD)
+Manyjaws (7S)
+Maximilian's Stony Grasp (ToM)
+Melf's Minute Meteors
+Minor Malison (ToM)
+Misfortune (HBW,PH)
+Modron Mind (PH)
+Monster Summoning I
+Mummy Touch (FRAd,PftM)
+Nchaser's Glowing Globe (FRAd,PftM)
+Nightscar (FRAd,FR4,PftM)
+Non-Detection
+Nybor's Mild Admonishment (S)
+Odeen's Secret Word (Dra#124)
+Pain Touch (PHBR4)
+Paralyze (FRAd,PftM)
+Phantom Steed
+Proficiency (Dra#200)
+Proof from Teleportation (FRAd,S,PftM)
+Protection from All Lycanthropes, 10' Radius (FR6)
+Protection from Electricity, 10' Radius (FR6)
+Protection from Evil, 10' Radius
+Protection from Glebes (Dra #229)
+Protection from Illusions (FR6)
+Protection from Magical Weapons (FR6)
+Protection from Normal Missiles
+Protection from Paralyzation (FR6)
+Protection from Specific Elementals, 10' Radius (FR6)
+Protection from Specific Undead, 5' Radius (FR6)
+Protection from Water (FR6)
+Putrefaction (CotD)
+Ranike Cloud (Dra#197)
+Ray of Paralysis (CotD)
+Resist Energy Drain (S)
+Revenance (FRAd,PftM)
+Reverse Fossilization (Dra#197)
+Sand Tools (CSH)
+Scintillating Sphere (FR16)
+Searing Serpent (Dra#187)
+Secret Page
+Sepia Snake Sigil
+Shadow Bolt (PftM,Dra#181)
+Skeletal Hand (RS1)
+Skin of the Fire Tiger (Dra#226)
+Skull Watch (FRAd,PftM)
+Skulltrap (CBoN)
+Skywrite (PftM)
+Sleep of Horror (RS1)
+Slow
+Slumber (Dra#221)
+Snapping Teeth (PHBR4)
+Spectral Farce (Dra #229)
+Spectral Force
+Spirit Armor (ToM)
+Squaring the Circle (ToM)
+Stabilize Chaos (PH)
+Staffspell (Dra#203)
+Steam Blast (Dra#187)
+Steeldance (7S)
+Stench of Death (RS1)
+Stoneiron (Dra#197)
+Storm's Swordfire (7S)
+Suggestion
+Sylune's Viper (7S)
+Tasirin's Haunted Sleep (PftM)
+Teleport Object (Dra#220)
+Tongues
+Transpose (Dra#220)
+Trap Spellbook (S)
+Undead Lieutenancy (CotD)
+Undead Summoning I (CotD)
+Undead Torch (CotD)
+Vampiric Touch
+Venom Bolt (Menzo)
+Ward Against Undead (FRAd,PftM)
+Water Breathing
+Watery Double (ToM)
+Waves of Weariness (FRAd,FR4,PftM)
+Whip of Pain (Dra#188)
+Wind Wall
+Wizard Sight (ToM)
+Wraithform
+Wylunde's Ward (7S)
+Zala's Forcebuckler (Dra#221)
+
+***** Level 4 *****
+Acid Bolt (FOR2)
+Acid Bolts (Dra#200)
+Alustriel's Mantle (7S)
+Argaster's Cloak of Shadows (Dra#211)
+Assume Undead Form (P&P)
+Baatezu Bane (PH)
+Backlash (FOR2,FR4,PftM)
+Bands of Ice (Dra#200)
+Beltyn's Burning Blood (FRAd,S,PftM)
+Blood Lightning (7S)
+Bone Form (RS1)
+Bone Seize (RS1)
+Brainkill (CBoN)
+Caligarde's Claw (FRAd,PftM)
+Chaos Hammer (HBW,PH)
+Charm Monster
+Confusion
+Conjure Dream Object (Dra#221)
+Contagion
+Corpse Whisper (Rav)
+Create Darkenbeast (MC3)
+Daltim's Flaming Fist (PftM)
+Dancing Weapon (RoMD,OA)
+Darsson's Eye in the Sky (PftM)
+Darsson's Potion (PftM)
+Despair (PH)
+Destroy Undead (RS1)
+Detect Ensorcellment (Dra #229)
+Detect Scrying
+Dig
+Dilation I (ToM)
+Dimension Door
+Disfigure (S)
+Divination Enhancement (ToM)
+Duplicate (PHBR4)
+Elemental Control (Dra#220)
+Emotion
+Empathic Wound Transfer (CBoN)
+Empower Skeleton (CotD)
+Enchanted Weapon
+Encrypt (FRAd,PftM)
+Enervation
+Evard's Black Tentacles
+Ever-changing Self (Dra #229)
+Everlasting Fire (PftM)
+Eyes of the Undead (Rav)
+Extension I
+Familiar Enhancer III (Dra#181)
+Far Reaching II (ToM)
+Fatigue (EoE)
+Fear
+Feign Destruction (RS1)
+Fire Aura (PHBR4)
+Fire Charm
+Fire Gate (FRAd,PftM)
+Fire Shield
+Fire Trap
+Firebrand (FR4,PftM)
+Fistandantilus's Firequench (Dra#196)
+Flamsterd's Flamestrike (FA1)
+Forcefend (CotD)
+Forcelash (RoMD)
+Fumble
+Galather's Gnostic Chain (7S)
+Galkyn's Bolt (7S)
+Geirdorn's Grappling Grasp (PftM,Dra#181)
+Gloom (CotD)
+Greater Malison (ToM)
+Hailcone (PftM)
+Hallucinatory Terrain
+Halo of Eyes (PHBR4)
+Handfangs (Dra#219)
+Ice Storm
+Identify Race (Dra#184)
+Illusionary Wall
+Ilyykur's Mantle (FRAd,PftM)
+Improved Invisibility
+Iron Maiden (7S)
+Laeral's Aqueous Column (FOR4,7S,PftM,Dra#181)
+Laeral's Gesture (7S)
+Leomund's Secure Shelter
+Lesser Spelldream (Dra#185)
+Lich Armor (RS1)
+Lich Touch (RS1)
+Lightning Shield (Dra#203)
+Locate Creature (ToM)
+Magic Mirror
+Mask of Death (ToM)
+Mask Light (Dra #229)
+Massmorph
+Merald's Muderous Mist (PftM)
+Mimic Mortal (Rav)
+Minor Creation
+Minor Globe of Invulnerability
+Minor Spell Turning (ToM)
+Missile Mastery (FRAd,FR4,PftM)
+Monster Summoning II
+Mordenkainen's Celerity (ToM)
+Mourning Stone (Dra#226)
+Native Item (PH)
+Negate Magical Weapon (S)
+Neverending Nightmare (Rav)
+Odeen's Impenetrable Lock (Dra#124)
+Othnal's Spectral Dagger (Dra#211)
+Otiluke's Dispelling Screen (PHBR4)
+Otiluke's Resilient Sphere
+Ottar's Mask (7S)
+Phantasmal Killer
+Phase Trap (FRAd,PftM)
+Plague (FRAd,FR4,PftM)
+Plant Growth
+Polymorph Other
+Polymorph Self
+Protection from All Elementals, 10' Radius (FR6)
+Protection from All Undead, 5' Radius (FR6)
+Protection from Breath Weapons - Dragon (FR6)
+Protection from Breath Weapons - Non-Dragon (FR6)
+Protection from Cold, 15' Radius (FR6)
+Protection from Deathbane, 10' Radius (CotD)
+Protection from Fire, 15' Radius (FR6)
+Protection from Gas, 5' Radius (FR6)
+Protection from Mechanical Traps (FR6)
+Protection from Petrification, 10' Radius (FR6)
+Protection from Possession, 10' Radius (FR6)
+Protection from Prime, 10' Radius (PH)
+Protection from Shape-changers, 10' Radius (FR6)
+Rain of Terror (Rav)
+Rainbow Pattern
+Rainbow Shield (7S)
+Ramael's Cyclical Ligth (FR16)
+Rary's Mnemonic Enhancer
+Remove Curse
+Repulse Metal (Dra#221)
+Sammaster's Lash (CotD)
+Serpent Garland (Dra#226)
+Shadow Dance (7S)
+Shadow Monsters
+Shadow Serpents (CotD)
+Shadow Skeleton (PftM,Dra#181)
+Shout
+Sleepwalking (Dra#221)
+Solid Fog
+Speak with Dead (FRQ1)
+Spectral Wings (FRAd,PftM)
+Spell Fangs (RoMD)
+Spelltouch (CotD)
+Spendelard's Chaser (FRAd,PftM)
+Sphere of Eyes (Dra#211)
+Spider Leap (Menzo)
+Spider Shape (Menzo)
+Stoneskin
+Stop (FOR2)
+Summon Lycanthrope (ToM)
+Summon Spirit (CBoN)
+Sunbolt (EoE)
+Suppress Lycanthropy (Rav)
+Swordshun (7S)
+Tap Menhir (Dra #229)
+There/Not There* (ToM)
+Thunder Staff (ToM)
+Thunderlance (FRAd,PftM)
+Transfuse (Dra#220)
+Transmute Fire to Smoke (PH)
+True Dream (Dra#221)
+True Nightmare (Dra#221)
+Tulrun's Tracer (PftM)
+Turn Pebble to Boulder (ToM)
+Undead Summoning II (CotD)
+Unburn (PftM)
+Unluck* (ToM)
+Vacancy
+Vrock's Screech (PH)
+Wall of Fire
+Wall of Ice
+Wall of Sand (FRAd,FR4,PftM)
+Watchware (FRAd,PftM)
+Weave Mythal (RoMD)
+Whisper Blade (7S)
+Wind Breath (PHBR4)
+Wizard Eye
+Woodiron (Dra#197)
+Zala's Amberhelm (Dra#221)
+
+***** Level 5 *****
+Advanced Illusion
+Airy Water
+Animal Growth
+Animate Dead
+Avoidance
+Bigby's Interposing Hand
+Bind Undead (CBoN)
+Blastcloak (RoMD)
+Bone Blight (CBoN)
+Bowgentle's Fleeting Journey (FRAd,PftM)
+Breathe Earth (PH)
+Breathe Fire or Magma (PH)
+Caddelyn's Catastrophe (FR4,PftM)
+Chaos
+Chromatic Blade (PftM)
+Cloudkill
+Conduit (PHBR8)
+Cone of Cold
+Conjure Elemental
+Conjure Nightmare (Dra#221)
+Contact Other Plane
+Create Chosen One (S)
+Darkbolt (RoMD)
+Darsson's Music Box (FR16)
+Daltim's Fiery Protector (PftM)
+Deathmaster's Vial (CotD)
+Demi-Shadow Monsters
+Discord (EoE)
+Disguise Undead (FRAd,PftM)
+Dismissal
+Distance Distortion
+Domination
+Dream
+Erdlu Egg (Dra#197)
+Extension II
+Fabricate
+False Vision
+Familiar Enhancer IV (Dra#181)
+Far Reaching III (ToM)
+Farscry (Dra#219)
+Fear Aura (CotD)
+Feeblemind
+Feign Undead (RoT,Rav)
+Fiendform (S)
+Fire Stones (FR6)
+Fleshshiver (7S)
+Force Shapechange (PHBR4)
+Gaseous Form (P&P)
+Graft Flesh (CBoN)
+Greater Rhabdomancy (Dra #229)
+Halaster's Grappling Hand (RoU)
+Hold Monster
+Improved Skull Watch (FRAd,PftM)
+Invulnerability to Normal Weapons (PHBR4)
+Ironguard (FRAd,FR4,PftM)
+Jhanifer's Deliquescence (PftM,Dra#181)
+Jonstal's Double Wizardry (Dra#211)
+Kank Shell (Dra#197)
+Khazid's Procurement (ToM)
+Knoslira's Crypt (RS1)
+Know Value (PHBR4)
+Laeral's Disrobement (7S)
+Leomund's Lamentable Belaborment
+Leomund's Secret Chest
+Lethal Hatchling (Dra#184)
+Lightning Curtain (Dra#200)
+Lower Resistance (ToM)
+Maximum Damage (EoE)
+Magic Jar
+Magic Staff (ToM)
+Major Creation
+Major Gate Ward (PH)
+Manor's Mindsight (Dra#166)
+Manshoon's Xorn Talons (Dra#188)
+Mass Contagion (RS1)
+Melisander's Harp (7S,PftM)
+Mind Fog (ToM)
+Misspell Mantle (RoMD)
+Monster Summoning III
+Mooncloak (7S)
+Mordenkainen's Faithful Hound
+Mordenkainen's Involuntary Wizardry (Dra#200)
+Mordenkainen's Private Sanctum (PHBR4,GA)
+Morgannaver's Sting (PftM,Dra#181)
+Move Fire or Magma (PH)
+Muirara's Map (7S)
+Mummy Rot (PHBR4)
+Nulathoe's Ninemen (FRAd,PftM)
+Passwall
+Passweb (FOR2)
+Persona of Death (RS1)
+Phantom Blade (7S)
+Pierce Magic Resistance (CotD)
+Presper's Moonbow (FRAd,PftM)
+Protection from Acid (FR6)
+Protection from Magical Traps, 5' Radius (FR6)
+Rapid Reflexive Response (FR16)
+Rary's Superior Spell Enhancer (CotD,GA)
+Rary's Telepathic Bond (PHBR4,GA)
+Rip (Dra#220)
+Safeguarding (ToM)
+Secure (FRAd,PftM)
+Seeming
+Sending
+Shadow Door
+Shadow Hand (PftM,Dra#181)
+Shadow Head (7S)
+Shadow Magic
+Shandaril's Tracer (FR4,PftM)
+Shoondal's Seeking (7S)
+Shroud of Flame (FRAd,PftM)
+The Sighing Chain (7S)
+Sinister Surroundings (RS1)
+Skeletal Spellcraft (CotD)
+Sleepless Curse (Dra#221)
+Snilloc's Major Missile (FRAd,PftM)
+Soul Anchor (Rav)
+Spell Immunity (FR6)
+Spidercloak Armor (Menzo)
+Stealweb (7S)
+Stone Drill (Dra#187)
+Stone Shape
+Storm's Spell Thrust (7S)
+Strahd's Malefic Meld (Rav)
+Summon Darsson (PftM)
+Summon Shadow
+Suspension (PftM)
+Tanar'ri Tribulation (PH)
+Telekinesis
+Teleport
+Thrice (CotD)
+Throbbing Bones (PHBR4)
+Thultaun's Thrust (Dra#196)
+Thunguul's Preservation (Dra#221)
+Transmute Rock to Mud
+Undead Familiar (PftM)
+Undead Summoning III (CotD)
+Valiancy (Dra#211)
+Vecna's Conflagration (Dra#225)
+Von Gasik's Refusal (ToM)
+Vortex* (ToM)
+Wall of Bones (PHBR4)
+Wall of Force
+Wall of Iron
+Wall of Stone
+Waveform* (ToM)
+Wonderform (Menzo)
+Xult's Magical Doom (FR4,PftM)
+Zala's Deception (Dra#221)
+Zone of Despair (RS1)
+
+***** Level 6 *****
+Acid Rain (S)
+Airy Earth (PH)
+Alter Dream (Dra#221)
+Animate Dread Warrior (S)
+Anti-Magic Aura (EoE)
+Anti-Magic Shell
+Archveult's Skybolt (PftM)
+Augmentation II (ToM)
+Barrier Reaver (Dra#196)
+Bigby's Forceful Hand
+Blackmantle (PHBR4)
+Blade of Doom (FRAd,PftM)
+Bloodstone's Spectral Steed (ToM)
+Bones of the Earth (RS1)
+Bonebind (Dra#200)
+Brightsong (7S)
+Cathala's Compulsion (7S)
+Chain Lightning
+Claws of the Umber Hulk (ToM)
+Close Gate (PH)
+Conjure Animals
+Construction (EoE)
+Contingency
+Control Weather
+Control Winds (FR6)
+Corpse Host (CBoN)
+Crushing Sphere (RoMD)
+Cubehopper (PH)
+Dauntra's Cloak (Dra#219)
+Dead Man's Eyes (PHBR4)
+Death Fog
+Death Spell
+Demi-Shadow Magic
+Dilation II (ToM)
+Disintegrate
+Dispel Possession (CotD)
+Double Steel (7S)
+Dragon Scales (PHBR4)
+Dweomer Divest (Dra #229)
+Dweomerburst (CotD)
+Enchant an Item
+Energy Transformation (RoU)
+Ensnarement
+Extension III
+Eyebite
+Familiar Enhancer V (Dra#181)
+Fellblade (PftM)
+Find Minion (Dra#228)
+Fire Eyes (7S)
+Flameproof (AQ,PftM)
+Forest's Fiery Constrictor (ToM)
+Gauntlet of Teeth (7S)
+Geas
+Ghostgrail (7S)
+Ghoul Gauntlet (CBoN)
+Glassee
+Globe of Invulnerability
+Graft (Dra#139)
+Greater Spelldream (Dra#185)
+Grimwald's Greymantle (FRAd,PftM)
+Guards and Wards
+Heal Self (RoMD)
+Howl of Pandemonium (PH)
+The Howling Chain (7S)
+Ice Magic (Dra #229)
+Imbue Undead with Spell Ability (FRAd,S,PftM)
+Impersonation (L&L)
+Invisible Stalker
+Invulnerability to Magical Weapons (PHBR4)
+Isolate Templar (Dra#197)
+Jonstal's Improved Double Wizardry (Dra#211)
+Legend Lore
+Lich Touch (FRAd,PftM)
+Lightningcloak (Dra#200)
+Lorloveim's Shadowy Transformation (ToM)
+Lower Water
+Mass Suggestion
+Mirage Arcana
+Mislead
+Monster Summoning IV
+Mordenkainen's Lucubration
+Move Earth
+No Breath (PH)
+Obold's Brightness (7S)
+Otiluke's Freezing Sphere
+Part Water
+Permanent Illusion
+Phantom Stalker (MC14)
+Power Word, Silence (FRAd,FR4,PftM)
+Prismatic Eye (PftM,Dra#181)
+Programmed Illusion
+Project Image
+Project Shadow (CotD)
+Protection from Any Traps, 5' Radius (FR6)
+Protection from Magic, 5' Radius (FR6)
+Rary's Urgent Utterance (CotD,GA)
+Reconstruction (FRAd,PftM)
+Reincarnation
+Repulsion
+Revelation (L&L)
+Ring of Disintegration (FR16)
+Shades
+Shadow Gauntlet (PftM,Dra#181)
+Shadowsteal (7S)
+Shatterbone (CotD)
+Skeletal Bride (7S)
+Spell Mirror (7S)
+Spirit Wrack (PH)
+Starharp (FA1)
+Static Field (Dra#203)
+Stone to Flesh
+Summon Spider (FOR2)
+Suspension (FR16)
+Teleport Dead (FRAd,PftM)
+Teleport Other (Dra#220)
+Tenser's Transformation
+Tentacles (PHBR4)
+Transmute Bone to Steel (CBoN)
+Transmute Water to Dust
+True Seeing
+Turn Lightning (Dra#225)
+Turnshadow (FRAd,FR4,PftM)
+Undead Summoning IV (CotD)
+Up the Abyssal Walls (PH)
+Vampiric Lash (RoMD)
+Veil
+Wildshield* (ToM)
+Wildstrike* (ToM)
+Wood Rot (Dra#220)
+Zala's Disruption (Dra#221)
+
+***** Level 7 *****
+Acid Storm (ToM)
+Alustriel's Improved Mantle (7S)
+Alustriel's Sword of Stars (7S)
+Anticipation (7S)
+Banishment
+Basilisk Glare (7S)
+Bigby's Grasping Hand
+Bloodstars (Dra#200)
+Bloodstone's Frightful Joining (ToM)
+Bone Javelin (PftM)
+Cacofiend (PH)
+Charm Plants
+Chromatic Blade (Dra#181)
+Control Undead
+The Curse of Forgetfulness (RoU)
+Daltim's Proof Against Fire (PftM)
+Delayed Blast Fireball
+Discern (Dra#139)
+Dragon Breath (Dra#196)
+Draincone (RoMD)
+Drawmij's Instant Summons
+Duo-Dimension
+Electric Bow (Dra#203)
+Ethereal Walk (Dra #229)
+Faerie Sword (EoE)
+Familiar Enhancer VI (Dra#181)
+Find the Path (FR6)
+Finger of Death
+Flame Chase (Dra#187)
+Forcecage
+Gemjump (FRAd,PftM)
+Gullship (EoE)
+Hatch the Stone From the Egg (ToM)
+Hold Golem (7S)
+Hornung's Surge Selector* (ToM)
+Howling Horror (RoZK)
+Improved Thrice (CotD)
+Intesify Summoning (ToM)
+Khelben's Warding Whip (FRAd,FR4,PftM)
+Limited Wish
+Malec-Keth's Flame Fist (ToM)
+Manor's Mind Vision (Dra#166)
+Mass Invisibility
+Mass Teleport (Dra#220)
+Misty Summons (Rav)
+Monster Summoning V
+Mordenkainen's Magnificent Mansion
+Mordenkainen's Penultimate Cogitation (CotD,GA)
+Mordenkainen's Sword
+Negative Plane Protection (PftM)
+Nerve Dance (FR16)
+Nybor's Joyful Voyage (S)
+Nybor's Stern Reproof (S)
+Ongeldyn's Fist (7S)
+Persistence (CotD)
+Phase Door
+Power Word, Stun
+Prismatic Spray
+Repel Undead (PftM)
+Reverse Gravity
+Ruby Ray of Reversal (FRAd,FR4,PftM)
+Semipermanency (CotD,DK,DaP)
+Sequester
+Shadowcat (ToM)
+Shadow Walk
+The Simbul's Spell Sequencer (7S)
+The Simbul's Spell Supremacy (7S)
+The Simbul's Synostodweomer (FRAd,FR4,7S,S,PftM)
+Simulacrum
+Spectral Guard (FRAd,PftM)
+Spell Shape* (ToM)
+Spell Turning
+Spelltrap (FRAd,FR4,PftM)
+Sprites (EoE)
+Statue
+Steal Enchantment (ToM)
+Stealspell (CotD)
+Stone Tell (FR6)
+Strahd's Frightful Joining (Rav)
+Suffocate (ToM)
+Summon Ice Mephits (Dra #229)
+Summon Wind (Dra#220)
+Sylune's Secret (7S)
+Sylune's Streaking Meteor (7S)
+Teleport Without Error
+Third Eye (Dra#226)
+Translocation Shift (Dra#219)
+True Name (PH)
+Undead Summoning V (CotD)
+Vanish
+Velsharoon's Death Pact (P&P)
+Vipergout (FOR2,FR4,PftM)
+Vision
+Wandweird (7S)
+Weirdshield (RoMD)
+Wings (Dra#187)
+Wound Conferral (CBoN)
+Zombie Double (PHBR4)
+Zone Perilous (CotD)
+
+***** Level 8 *****
+Abi-Dalzim's Horrid Wilting (ToM)
+Afterclap (7S)
+Air Spiral (7S)
+Airball (Dra#187)
+Airboat (ToM)
+Antipathy-Sympathy
+Bigby's Clenched Fist
+Binding
+Blackstaff (FOR4,PftM,Dra#181)
+Block Advancement (Dra#139)
+Bone Blade (PftM)
+Brain Spider (7S)
+Change Form (Dra#139)
+Clone
+Create Death Tyrant (RoU)
+Create Spectral Wizard (PftM)
+Create Watchghost (RoU)
+Death Link (FRAd,PftM)
+Death Shroud (CBoN)
+Death Spider (FOR2)
+Deathshroud (Dra#200)
+Deep Delve (Dra#187)
+Defoliate (PHBR4)
+Demand
+Demiplane Seed (PH)
+Disrupt Dominion (RS1)
+Dweomerdeny (7S)
+Endless Slumber (Dra#221)
+Enhance (L&L)
+Evolve (PftM)
+Familiar Enhancer VII (Dra#181)
+Fear Ward (PHBR4)
+Fire Storm (FR6)
+Flensing (S)
+Gateway (FRAd,PftM)
+Ghoul Lattice (RS1)
+Glassteel
+Graft Flesh (RS1)
+Graft Item (RS1)
+Great Shout (FRAd,PftM)
+Gunther's Kaleidoscopic Strike (ToM)
+Homunculus Shield (ToM)
+Hornung's Random Dispatcher* (ToM)
+Incendiary Cloud
+Laeral's Invisibile Blade (7S)
+Laruin's Blinding Blizzard (Dra #229)
+Life Force Transfer (CBoN)
+Life Illusion (Dra#226)
+Lifedrain (RoMD)
+Lightning Ring (7S)
+Lightning Storm (Dra#200)
+Mass Charm
+Mass Teleport Without Error (Dra#220)
+Maze
+Mind Blank
+Mine the Earthspark (Dra #229)
+Monster Summoning VI
+Mystic Shield (RoMD)
+Net of Stars (7S)
+Nybor's Wrathful Castigation (S)
+Otiluke's Telekinetic Sphere
+Otto's Irresistible Dance
+Permanency
+Polymorph Any Object
+Power Word, Blind
+Presper's Double Wizardry (7S)
+Prismatic Wall
+Regenerate (FR6)
+Rising Colossus (7S)
+Screen
+Serten's Spell Immunity
+Shadow Form (PHBR4)
+The Simbul's Skeletal Deliquescence (7S)
+Simulate Skill (RS1)
+Sink
+Skeletal Guard (CotD)
+Spell Engine (FRAd,PftM)
+Spellcaster (CotD)
+Storm (Dra#203)
+Sunburst (FRAd,PftM)
+Sylune's Absolute Immunity (7S)
+Symbol
+Symbol (RoU)
+Temporal Freedom (Dra#219)
+Thrice Supreme (CotD)
+Trap the Soul
+Undead Aides (CotD)
+Undead Summoning VI (CotD)
+Unlife (CotD,S)
+Waterspout (Dra#220)
+Wave of Death (RS1)
+Wildzone* (ToM)
+Level 9
+Absorption (CotD)
+Acererak's Blackstone (Dra#225)
+Alamanther's Return (7S,Dra#200)
+Algarth's Embattlement (CotD,7S)
+Allisandro's Binding Curse (Rav)
+Astral Spell
+Bigby's Crushing Hand
+Black Blade of Disaster (FOR2)
+Blade in the Soul (7S)
+Brainblaze (Dra#219)
+Chain Contingency (ToM)
+Combine (CotD)
+Confer (RS1)
+Conquer Self (Dra#139)
+Create Minion (RS1)
+Create Shade (Dra#213)
+Crystalbrittle
+Death Ward (CotD,CBoN)
+Dismind (FRAd,PftM)
+Disruption (PftM)
+Draindoom (RoMD)
+Elemental Aura (ToM)
+Elminster's Effulgent Epuration (FRAd,PftM)
+Elminster's Evasion (FRAd,PftM)
+Energy Drain
+Estate Transference (ToM)
+Eye of Mystra (7S)
+Eye of Power (7S)
+Familiar Enhancer VIII (Dra#181)
+Foresight
+Gate
+Glorious Transmutation (ToM)
+Iggwilv's Lightning Cage (Dra#225)
+Iggwilv's Timeless Sleep (Dra#225)
+Immunity to Undeath (PftM)
+Imprisonment
+Juggernaut (7S)
+Laeral's Crowning Touch (7S)
+Life Force Exchange (CBoN)
+Lifeblend (PftM)
+Mage Tunnel (S)
+Master Undead (FRAd,PftM)
+Maw of Chaos (7S)
+Meteor Swarm
+Monsoon (Dra#226)
+Monster Summoning VII
+Mordenkainen's Disjunction
+Mycontil's Last Resort (FR16)
+Mylsibis' Arcane Contention (Dra#166)
+Mystic Sphere (RoMD)
+Phezult's Sleep of Ages (FR4,RoU,PftM)
+Pierce Any Shield (CotD)
+Power Word, Banishment (FR16)
+Power Word, Kill
+Power Word, Liquefy (Dra#187)
+Prismatic Sphere
+Restoration (FR6)
+Ring of Swords (7S)
+Ringweave (7S)
+Sammaster's Conjunction (CotD)
+Shape Change
+The Simbul's Spell Trigger (7S)
+Skycastle (Dra#220)
+Spell Invulnerability (FRAd,PftM)
+Spell-Lash (S)
+Spellstorm (7S)
+Spellstrike (FRAd,FR4,PftM)
+Sphere of Wonder (7S)
+Stabilize* (ToM)
+Stasis Clone (RoZK)
+Succor
+Tempestcone (Dra#200)
+Temporal Stasis
+Time Stop
+Tobian's Ultimate Circle (Dra#221)
+Triad Gem (CotD)
+Tsunami (OA,Dra#220)
+Tymessul's Cerulean Traverse (Dra#166)
+Tymessul's Planar Pacifier (Dra#166)
+Tyranteyes (7S)
+Unbinding (CotD)
+Undead Summoning VII (CotD)
+Virus Charm (FRAd,PftM)
+Wail of the Banshee (ToM)
+Wastequake (HBW,PH)
+Web of Shadows (Menzo)
+Weird
+Wildfire* (ToM)
+Wildwind* (ToM)
+Windwar (Dra#187)
+Wish
+Worldwalk (FRAd,PftM)
+
+-------------------------------------------------------------------------------
+Source Abbreviation Key
+CBoN - The Complete Book of Necromancers
+CotD - Cult of the Dragon
+Dra# - Dragon Magazine Issue #
+EE - Elminster's Ecologies Boxed Set
+EoE - Elves of Evermeet
+FA1 - Halls of the High King
+FOR2 - The Drow of the Underdark
+FOR4 - The Code of the Harpers
+FRAd - Forgotten RealmsTM Adventures
+FRQ1 - Haunted Halls of Eveningstar
+FR4 - The Magister
+FR6 - Dreams of the Red Wizards
+FR16 - The Shining South
+L&L - Legends & Lore
+MC3 - Monstrous Compendium Volume Three - Forgotten RealmsTM
+MC14 - Monstrous Compendium Volume Fourteen - Fiend Folio
+Menzo - Menzoberranzan Boxed Set
+PftM - Pages from the Mages
+PH - The Planewalker's Handbook
+PHBR4 - The Complete Wizard's Handbook
+PHBR8 - The Complete Book of Elves
+P&P - Powers and Pantheons
+PS - Planescape Boxed Set
+Rav - RavenloftTM Campaign Setting Boxed Set
+RoMD - The Ruins of Myth Drannor Boxed Set
+RoT - RavenloftTM Realm of Terror Boxed Set
+RoU - The Ruins of Undermountain Boxed Set
+RoU2 - The Ruins of Undermountain II: The Deep Levels Boxed Set
+RoZK - Ruins of Zhentil Keep Boxed Set
+RS1 - Van Richten's Guide to the Lich
+S - Spellbound Boxed Set
+7S - The Seven Sisters
+ToM - Tome of Magic

@@ -1,0 +1,34 @@
+// PC races
+Gold Dwarf
+Shield Dwarf
+Wild Dwarf
+Gold Elf
+Moon Elf
+Wild Elf
+Gnome
+Gold Half-Elf
+Moon Half-Elf
+Wild Half-Elf
+Halfling
+Human
+// NPC races
+Duergar
+Sea Elf
+Drow
+Sea Half-Elf
+Dark Half-Elf
+// monster races
+Aasimon
+Baatezu
+Dragon
+Elemental
+Genie
+Giant
+Golem
+Slaadi
+Tanar'ri
+Animal
+Bird
+Insect
+Monster
+// FR campaign setting lists beholders, bugbear, gnoll, goblin, half-orc, hobgoblin, illithid, kobold, ogre, orc
